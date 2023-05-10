@@ -1,23 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+import logoBorder from './LeburcLogoBorder.png';
+import logoLettering from './LeburcLogoLettering.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="App-logo-wrapper">
+          <img src={logoBorder} className="App-logo-border" alt="logo" />
+        </div>
+        <img src={logoLettering} className="App-logo-lettering" alt="logo" />
       </header>
     </div>
   );
