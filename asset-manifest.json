@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.46b76980.css",
+    "main.js": "/static/js/main.b1b00490.js",
+    "static/js/787.913e7071.chunk.js": "/static/js/787.913e7071.chunk.js",
+    "static/media/leburcLogoBorder.png": "/static/media/leburcLogoBorder.ef32a0f4e841c5898333.png",
+    "index.html": "/index.html",
+    "main.46b76980.css.map": "/static/css/main.46b76980.css.map",
+    "main.b1b00490.js.map": "/static/js/main.b1b00490.js.map",
+    "787.913e7071.chunk.js.map": "/static/js/787.913e7071.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46b76980.css",
+    "static/js/main.b1b00490.js"
+  ]
+}
