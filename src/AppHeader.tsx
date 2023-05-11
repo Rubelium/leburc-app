@@ -1,13 +1,13 @@
-import logoBorder from './LeburcLogoBorder.png';
-import logoLettering from './LeburcLogoLettering.png';
+import logoBorder from './leburcLogoBorder.png';
+import logoLettering from './leburcLogoLettering.png';
 
 function AppHeader() {
   return (
     <header className="App-header">
-      <div className="App-logo-wrapper">
-        <img src={logoBorder} className="App-logo-border" alt="logo" />
+      <div className="App-leburc-logo-wrapper">
+        <img src={logoBorder} className="App-leburc-logo-border" alt="Loading..." />
       </div>
-      <img src={logoLettering} className="App-logo-lettering" alt="logo" />
+      <img src={logoLettering} className="App-leburc-logo-lettering" alt="Loading..." />
     </header>
   );
 }

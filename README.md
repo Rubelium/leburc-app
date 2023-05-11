@@ -44,16 +44,8 @@ In the project directory, you can run:
 
 ### ToDo
 
-- Upload higher quality logos.
-- Cleanup coloring.
-- Setup contact section.
 - Setup promotional section.
-- Setup social media and mix links section.
 - Setup upcoming events section.
 - Setup calendar section.
-- Setup showcase for past events section.
-- Setup sponsor for ToVi section.
-- Setup gallery section.
-- Setup GitHub section.
 - Setup SEM/SEO sharing and meta.
 - Setup Google Domain.
