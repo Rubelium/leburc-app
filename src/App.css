@@ -1,3 +1,4 @@
+/* main */
 .App {
   text-align: center;
 }
@@ -35,18 +36,7 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-.App-loading-icon {
-  height: 50px;
-}
-
-.App-social-icon {
-  margin: 0px 10px 0px 10px;
-}
-
+/* logos */
 .App-leburc-logo-border {
   height: 50vmin;
   pointer-events: none;
@@ -74,6 +64,20 @@
   pointer-events: none;
 }
 
+/* miscellaneous */
+.App-link {
+  color: #61dafb;
+}
+
+.App-loading-icon {
+  height: 50px;
+}
+
+.App-social-icon {
+  margin: 0px 10px 0px 10px;
+}
+
+/* animation */
 @media (prefers-reduced-motion: no-preference) {
   .App-leburc-logo-border {
     animation: App-leburc-logo-border-spin infinite 90s linear;

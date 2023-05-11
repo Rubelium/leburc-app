@@ -42,7 +42,7 @@ In the project directory, you can run:
 - [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
-### ToDo
+### WIP
 
 - Setup promotional section.
 - Setup upcoming events section.
