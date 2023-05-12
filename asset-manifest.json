@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.48a13e55.css",
-    "main.js": "/static/js/main.70b675e1.js",
+    "main.js": "/static/js/main.03541f56.js",
     "static/js/787.913e7071.chunk.js": "/static/js/787.913e7071.chunk.js",
     "static/media/leburcLogoBorder.png": "/static/media/leburcLogoBorder.ef32a0f4e841c5898333.png",
     "index.html": "/index.html",
     "main.48a13e55.css.map": "/static/css/main.48a13e55.css.map",
-    "main.70b675e1.js.map": "/static/js/main.70b675e1.js.map",
+    "main.03541f56.js.map": "/static/js/main.03541f56.js.map",
     "787.913e7071.chunk.js.map": "/static/js/787.913e7071.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48a13e55.css",
-    "static/js/main.70b675e1.js"
+    "static/js/main.03541f56.js"
   ]
 }
