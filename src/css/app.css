@@ -1,6 +1,7 @@
 /* main */
 .App {
   text-align: center;
+  caret-color: transparent !important;
 }
 
 .App-header {
