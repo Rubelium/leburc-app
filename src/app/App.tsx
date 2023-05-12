@@ -1,4 +1,4 @@
-import './App.css';
+import '../css/app.css';
 import AppHeader from './AppHeader';
 import AppBody from './AppBody';
 import AppFooter from './AppFooter';

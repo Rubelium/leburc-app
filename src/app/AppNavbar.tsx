@@ -1,7 +1,7 @@
-import logoLettering from "./leburcLogoLettering.png"
+import logoLettering from "../images/leburcLogoLettering.png"
 import { Navbar } from "@nextui-org/react";
 import { SocialIcon } from "react-social-icons";
-import { ScrollToTop } from "./Helpers";
+import { ScrollToTop } from "../helpers/ScrollToTop";
 
 function AppNavbar() {
   return (

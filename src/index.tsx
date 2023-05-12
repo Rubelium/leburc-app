@@ -1,9 +1,9 @@
-import './index.css';
+import './css/index.css';
 import { NextUIProvider } from '@nextui-org/react';
-import { NextUiProviderTheme } from './Objects';
+import { NextUiProviderTheme } from './objects/NextUiProviderTheme';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import App from './app/App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(

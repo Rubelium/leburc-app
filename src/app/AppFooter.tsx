@@ -1,4 +1,4 @@
-// import ToViLogo from './logoToVi.png';
+// import ToViLogo from '../images/logoToVi.png';
 import { ClapSpinner } from "react-spinners-kit";
 
 function AppFooter() {
