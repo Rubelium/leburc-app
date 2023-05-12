@@ -5,7 +5,7 @@ import AppFooter from './AppFooter';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" data-testid="app-main">
       <AppHeader />
       <AppBody />
       <AppFooter />
