@@ -47,6 +47,7 @@ In the project directory, you can run:
 ### WIP
 
 - Fix png downscaling.
+- Change social icon hover colors.
 - Setup contact section.
 - Setup upcoming events/tickets section.
 - Setup promotional section.

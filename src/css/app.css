@@ -14,15 +14,19 @@
   color: white;
 }
 
-.App-body {
+.App-body-column {
   background-color: #1b1b1b;
   min-height: 25vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-body-row {
+  flex-direction: row;
 }
 
 .App-footer {
@@ -79,9 +83,10 @@
 
 .App-social-icon {
   margin: 0px 10px 0px 10px;
+  height: 60px !important;
+  width: 60px !important;
   border-radius: 50%;
   border: 2px solid #6b6b6b;
-  padding: -1px;
 }
 
 .App-social-icon-navbar {
