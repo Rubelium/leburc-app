@@ -1,11 +1,11 @@
 import { SocialIcon } from "react-social-icons";
-import { Text } from "@nextui-org/react";
+// import { Text } from "@nextui-org/react";
 
 function AppBody() {
   return (
     <div className="App-body-column">
       <div className="App-body-row">
-        <Text
+        {/* <Text
           h6
           size={17}
           weight="semibold"
@@ -15,8 +15,8 @@ function AppBody() {
             marginBottom: "30px"
           }}
         >
-          CONNECT&nbsp;
-        </Text>
+          CONNECT
+        </Text> */}
       </div>
       <div className="App-body-row">
         <SocialIcon className="App-social-icon" url="https://soundcloud.com/leburc" bgColor="#00ff89" />
