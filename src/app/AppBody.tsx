@@ -7,7 +7,6 @@ function AppBody() {
       <div className="App-body-row">
         <Text
           h6
-          i
           size={17}
           weight="semibold"
           css={{

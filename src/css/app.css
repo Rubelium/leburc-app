@@ -87,9 +87,17 @@
   border: 2px solid #6b6b6b;
 }
 
+.App-social-icon .social-svg:hover {
+  background-color: #ffffff;
+}
+
 .App-social-icon-navbar {
   height: 35px !important;
   width: 35px !important;
+}
+
+.App-social-icon-navbar .social-svg:hover {
+  background-color: #00ff89;
 }
 
 /* miscellaneous */
