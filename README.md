@@ -46,6 +46,9 @@ In the project directory, you can run:
 
 ### WIP
 
+- Setup contact section.
+- Setup navbar.
+- Setup upcoming events/tickets section.
 - Setup promotional section.
-- Setup upcoming events section.
-- Setup calendar section.
+- Setup video section.
+- Setup track/album releases section.
