@@ -12,6 +12,7 @@ function AppFooter() {
       <Text
         h6
         size={12.5}
+        weight="normal"
         css={{
           color: "#d4d4d4",
           marginTop: "30px"
