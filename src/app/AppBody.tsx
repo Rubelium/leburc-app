@@ -7,7 +7,8 @@ function AppBody() {
       <div className="App-body-row">
         <Text
           h6
-          size={17.5}
+          i
+          size={17}
           weight="semibold"
           css={{
             color: "#d4d4d4",
@@ -15,7 +16,7 @@ function AppBody() {
             marginBottom: "30px"
           }}
         >
-          CONNECT
+          CONNECT&nbsp;
         </Text>
       </div>
       <div className="App-body-row">
