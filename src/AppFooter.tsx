@@ -1,10 +1,10 @@
 // import ToViLogo from './logoToVi.png';
-import { ClapSpinner } from "react-spinners-kit";
+import { BarsSpinner, MagicSpinner, SphereSpinner } from "react-spinners-kit";
 
 function AppFooter() {
   return (
     <footer className="App-footer">
-      <ClapSpinner size={50} color="#686769" loading={true} />
+      <SphereSpinner size={30} color="#00ff89" loading={true} />
       {/* <a href="https://www.instagram.com/tovi_ent/">
         <img src={ToViLogo} className="App-tovi-logo" alt="Loading..." />
       </a> */}
