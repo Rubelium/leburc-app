@@ -49,4 +49,3 @@ In the project directory, you can run:
 - Setup promotional section.
 - Setup upcoming events section.
 - Setup calendar section.
-- Setup SEM/SEO sharing and meta.
