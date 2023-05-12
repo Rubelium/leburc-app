@@ -46,8 +46,8 @@ In the project directory, you can run:
 
 ### WIP
 
+- Fix png downscaling.
 - Setup contact section.
-- Setup navbar.
 - Setup upcoming events/tickets section.
 - Setup promotional section.
 - Setup video section.

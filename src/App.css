@@ -47,6 +47,10 @@
   pointer-events: none;
 }
 
+.App-leburc-logo-lettering-navbar {
+  height: 20px;
+}
+
 .App-leburc-logo-wrapper {
   position: absolute;
   display: flex;
@@ -59,22 +63,32 @@
   padding-right: 100px;
 }
 
+.App-navbar-logo-wrapper {
+  cursor: pointer;
+}
+
 .App-tovi-logo {
   height: 200px;
   pointer-events: none;
 }
 
-/* miscellaneous */
-.App-link {
-  color: #61dafb;
-}
-
+/* icons */
 .App-loading-icon {
   height: 50px;
 }
 
 .App-social-icon {
   margin: 0px 10px 0px 10px;
+}
+
+.App-social-icon-navbar {
+  height: 35px !important;
+  width: 35px !important;
+}
+
+/* miscellaneous */
+.App-link {
+  color: #61dafb;
 }
 
 /* animation */
