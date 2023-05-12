@@ -80,7 +80,7 @@
 /* animation */
 @media (prefers-reduced-motion: no-preference) {
   .App-leburc-logo-border {
-    animation: App-leburc-logo-border-spin infinite 90s linear;
+    animation: App-leburc-logo-border-spin infinite 70s linear;
   }
 }
 
