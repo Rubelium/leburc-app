@@ -5,7 +5,7 @@ import { ScrollToTop } from "../helpers/ScrollToTop";
 
 function AppNavbar() {
   return (
-    <Navbar className="bg-black">
+    <Navbar className="text-white bg-black">
       <NavbarBrand>
         <div className="App-navbar-logo-wrapper" onClick={ScrollToTop}>
           <img src={logoLettering} className="App-leburc-logo-lettering-navbar" alt="Loading..." />
