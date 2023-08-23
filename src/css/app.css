@@ -4,6 +4,7 @@
   caret-color: transparent !important;
 }
 
+/* header */
 .App-header {
   background-color: #0f0f0f;
   min-height: 50vh;
@@ -15,6 +16,7 @@
   color: white;
 }
 
+/* body */
 .App-body-column {
   background-color: #1b1b1b;
   min-height: 25vh;
@@ -30,6 +32,7 @@
   flex-direction: row;
 }
 
+/* footer */
 .App-footer {
   background-color: #0f0f0f;
   min-height: 25vh;
@@ -70,11 +73,6 @@
   cursor: pointer;
 }
 
-.App-tovi-logo {
-  height: 200px;
-  pointer-events: none;
-}
-
 /* icons */
 .App-loading-icon {
   height: 50px;
@@ -93,8 +91,8 @@
 }
 
 .App-social-icon-navbar {
-  height: 35px !important;
-  width: 35px !important;
+  height: 40px !important;
+  width: 40px !important;
 }
 
 .App-social-icon-navbar .social-svg:hover {

@@ -1,6 +1,5 @@
 import './css/index.css';
 import { NextUIProvider } from '@nextui-org/react';
-import { NextUiProviderTheme } from './objects/NextUiProviderTheme';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './app/App';
@@ -12,7 +11,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <NextUIProvider theme={NextUiProviderTheme}>
+    <NextUIProvider>
       <App />
     </NextUIProvider>
   </React.StrictMode>

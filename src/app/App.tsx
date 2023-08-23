@@ -6,7 +6,7 @@ import AppNavbar from './AppNavbar';
 
 function App() {
   return (
-    <div className="App" data-testid="app-main">
+    <div className="App dark" data-testid="app-main">
       <AppNavbar />
       <AppHeader />
       <AppBody />
