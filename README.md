@@ -53,6 +53,7 @@ In the project directory, you can run:
 - Setup promotional/label section.
 - Setup track/album releases section.
 - Setup video section.
+- Setup notify me section.
 - Setup audio player card.
 - Create gradient dividers for body sections.
 - Create carousel for mixes.

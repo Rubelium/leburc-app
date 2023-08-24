@@ -19,14 +19,8 @@
 .App-body-section {
   min-height: 25vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-.App-body-section-content {
-  flex-direction: row;
 }
 
 /* footer */
@@ -71,10 +65,6 @@
 }
 
 /* icons */
-.App-loading-icon {
-  height: 50px;
-}
-
 .App-social-icon {
   margin: 0px 10px 0px 10px;
   height: 60px !important;
@@ -93,11 +83,6 @@
 
 .App-social-icon-navbar .social-svg:hover {
   background-color: #00ff89;
-}
-
-/* miscellaneous */
-.App-link {
-  color: #61dafb;
 }
 
 /* animation */
