@@ -1,7 +1,7 @@
 import { Card, CardHeader, CardBody, Image } from "@nextui-org/react";
 import club201 from "../images/club201.jpeg"
 
-export default function App() {
+export default function AppCard() {
   return (
     <Card
       className="py-4 m-8 border-4 border-[#00ff89] rounded-2xl bg-white text-black shadow-2xl"

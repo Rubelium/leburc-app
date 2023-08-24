@@ -1,6 +1,6 @@
 import { SocialIcon } from "react-social-icons";
 
-function AppFooter() {
+export default function AppFooter() {
   return (
     <footer className="App-footer">
       <div className="flex-row">
@@ -13,5 +13,3 @@ function AppFooter() {
     </footer>
   );
 }
-
-export default AppFooter;

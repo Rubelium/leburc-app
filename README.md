@@ -40,9 +40,11 @@ In the project directory, you can run:
 ### Extensions
 
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
-- [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
+- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 
 ### WIP
 
@@ -52,6 +54,5 @@ In the project directory, you can run:
 - Setup track/album releases section.
 - Setup video section.
 - Setup audio player card.
-- Create gradients for body sections.
-- Change icon sizes on different sized screens.
-- Create carousel for mixes
+- Create gradient dividers for body sections.
+- Create carousel for mixes.

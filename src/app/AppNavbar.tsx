@@ -3,7 +3,7 @@ import { Link, Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, Navba
 import { SocialIcon } from "react-social-icons";
 import { ScrollToTop } from "../helpers/ScrollToTop";
 
-function AppNavbar() {
+export default function AppNavbar() {
   return (
     <Navbar className="text-white bg-black">
       <NavbarBrand>
@@ -57,5 +57,3 @@ function AppNavbar() {
     </Navbar >
   );
 }
-
-export default AppNavbar;

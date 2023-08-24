@@ -1,7 +1,7 @@
 import logoBorder from '../images/leburcLogoBorder.png';
 import logoLettering from '../images/leburcLogoLettering.png';
 
-function AppHeader() {
+export default function AppHeader() {
   return (
     <header className="App-header">
       <div className="App-leburc-logo-wrapper">
@@ -11,5 +11,3 @@ function AppHeader() {
     </header>
   );
 }
-
-export default AppHeader;
