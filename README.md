@@ -57,3 +57,4 @@ In the project directory, you can run:
 - Setup audio player card.
 - Create gradient dividers for body sections.
 - Create carousel for mixes.
+- Fix mobile size of logo.
