@@ -11,7 +11,7 @@ interface AppCardProps {
 const AppCard: FunctionComponent<AppCardProps> = ({ headerText, subHeaderText, url, image }) => {
   return (
     <Card
-      className="py-4 m-8 border-4 border-[#00ff89] rounded-2xl bg-white text-black shadow-2xl"
+      className="py-4 m-8 border-4 border-[#00ff89] rounded-2xl bg-[#ffffff] text-black shadow-2xl"
       isPressable
       onPress={() => window.location.href = url}
     >

@@ -51,10 +51,9 @@ In the project directory, you can run:
 - Setup contact section.
 - Setup upcoming events/tickets section.
 - Setup promotional/label section.
-- Setup track/album releases section.
+- Setup track/album/mix releases section.
 - Setup video section.
 - Setup notify me section.
 - Setup audio player card.
-- Create gradient dividers for body sections.
-- Create carousel for mixes.
-- Fix mobile size of logo.
+- Update coloring scheme for gradients and cards.
+- Fix mobile size of header logo.
