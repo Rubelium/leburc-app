@@ -1,10 +1,14 @@
-// import ToViLogo from '../images/logoToVi.png';
-import { ClapSpinner } from "react-spinners-kit";
+import { SocialIcon } from "react-social-icons";
 
 function AppFooter() {
   return (
     <footer className="App-footer">
-      <ClapSpinner size={30} color="#00ff89" loading={true} />
+      <div className="flex-row">
+        <SocialIcon className="App-social-icon" url="https://soundcloud.com/leburc" bgColor="#00ff89" />
+        <SocialIcon className="App-social-icon" url="https://www.instagram.com/_leburc/" bgColor="#00ff89" />
+        <SocialIcon className="App-social-icon" url="https://github.com/Rubelium/leburc-app" bgColor="#00ff89" />
+        <SocialIcon className="App-social-icon" url="mailto:dj.leburc@gmail.com" bgColor="#00ff89" />
+      </div>
       <div className="text-xs text-grey mt-8">&copy; LEBURC 2023</div>
     </footer>
   );

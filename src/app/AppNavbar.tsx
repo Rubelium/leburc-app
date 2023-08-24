@@ -11,10 +11,10 @@ function AppNavbar() {
           <img src={logoLettering} className="App-leburc-logo-lettering-navbar" alt="Loading..." />
         </div>
       </NavbarBrand>
-      <NavbarContent className="gap-4" justify="end">
+      <NavbarContent justify="end">
         <div className="hidden sm:flex gap-4">
           <NavbarItem>
-            <SocialIcon className="App-social-icon-navbar w-32" url="https://soundcloud.com/leburc" bgColor="#ffffff" />
+            <SocialIcon className="App-social-icon-navbar" url="https://soundcloud.com/leburc" bgColor="#ffffff" />
           </NavbarItem>
           <NavbarItem>
             <SocialIcon className="App-social-icon-navbar" url="https://www.instagram.com/_leburc/" bgColor="#ffffff" />
