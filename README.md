@@ -48,11 +48,9 @@ In the project directory, you can run:
 
 ### WIP
 
-- Setup contact section.
 - Setup upcoming events/tickets section.
 - Setup promotional/label section.
-- Setup track/album/mix releases section.
-- Setup video section.
 - Setup notify me section.
 - Setup audio player card.
-- Organization for mixes.
+- Setup contact me modal.
+- Organize track/album/mix releases section.

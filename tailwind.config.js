@@ -1,4 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
+const nextui = require("@nextui-org/react");
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -6,9 +7,12 @@ export default {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        success: "#00ff89"
+      }
+    },
   },
-  darkMode: "class",
-  plugins: [require("@nextui-org/react")],
+  plugins: [nextui],
 }
 

@@ -1,9 +1,9 @@
-import { ClapSpinner } from "react-spinners-kit";
-import Card from "./Card";
 import boomerangsDownUnderBar from "../images/boomerangsDownUnderBar.jpg"
 import club201 from "../images/club201.jpeg"
 import odysseyBeach from "../images/odysseyBeach.png"
 import stPeteBrewingCompany from "../images/stPeteBrewingCompany.jpg"
+import { ClapSpinner } from "react-spinners-kit";
+import Card from "./Card";
 
 export default function AppBody() {
   return (
