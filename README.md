@@ -53,4 +53,5 @@ In the project directory, you can run:
 - Setup notify me section.
 - Setup audio player card.
 - Setup contact me modal.
+- Add write-up section.
 - Organize track/album/mix releases section.
