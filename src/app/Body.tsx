@@ -9,9 +9,6 @@ export default function AppBody() {
   return (
     <>
       <div className="h-72 bg-gradient-to-b from-[#0f0f0f] to-[#1b1b1b]"></div>
-      <div className="App-body-section bg-[#1b1b1b]">
-        <ClapSpinner size={30} color="#00ff89" loading={true} />
-      </div>
       <div className="h-72 bg-gradient-to-b from-[#1b1b1b] to-[#272727]"></div>
       <div className="App-body-section flex flex-col md:flex-row bg-[#272727]">
         <Card

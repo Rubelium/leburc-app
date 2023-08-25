@@ -3,11 +3,11 @@ import logoLettering from '../images/leburcLogoLettering.png';
 
 export default function AppHeader() {
   return (
-    <header className="App-header">
-      <div className="App-leburc-logo-wrapper">
-        <img src={logoBorder} className="App-leburc-logo-border" alt="Loading..." />
+    <header className="App-header pt-5">
+      <div className="flex absolute">
+        <img src={logoBorder} className="App-leburc-logo-border max-h-[475px]" alt="Loading..." />
       </div>
-      <img src={logoLettering} className="App-leburc-logo-lettering" alt="Loading..." />
+      <img src={logoLettering} className="App-leburc-logo-lettering max-h-[40px]" alt="Loading..." />
     </header>
   );
 }
