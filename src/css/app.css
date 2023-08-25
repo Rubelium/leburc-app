@@ -33,21 +33,6 @@
   color: white;
 }
 
-/* logos */
-.App-leburc-logo-border {}
-
-.App-leburc-logo-lettering {
-  pointer-events: none;
-}
-
-.App-leburc-logo-lettering-navbar {
-  height: 20px;
-}
-
-.App-navbar-logo-wrapper {
-  cursor: pointer;
-}
-
 /* icons */
 .App-social-icon {
   margin: 0px 10px 0px 10px;

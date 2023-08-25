@@ -7,8 +7,8 @@ export default function AppNavbar() {
   return (
     <Navbar className="text-white bg-black">
       <NavbarBrand>
-        <div className="App-navbar-logo-wrapper" onClick={ScrollToTop}>
-          <img src={logoLettering} className="App-leburc-logo-lettering-navbar" alt="Loading..." />
+        <div className="cursor-pointer" onClick={ScrollToTop}>
+          <img src={logoLettering} className="App-leburc-logo-lettering-navbar h-[21px]" alt="Loading..." />
         </div>
       </NavbarBrand>
       <NavbarContent justify="end">
