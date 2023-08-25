@@ -13,8 +13,8 @@ const AppCard = ({ headerText, subHeaderText, url, image, imageCreditText, image
   return (
     <Card
       className={`py-4 m-8 ${imageCreditText && imageCreditUrl && "pb-0"} border-4 border-[#00ff89] rounded-2xl bg-[#ffffff] text-black shadow-2xl`}
-      isPressable
       onPress={() => window.location.href = url}
+      isPressable
     >
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
         <p className="text-xl uppercase font-bold">{headerText}
