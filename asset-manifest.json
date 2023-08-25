@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.761e1c41.css",
-    "main.js": "/static/js/main.3ce6bf2f.js",
+    "main.css": "/static/css/main.c6c34f34.css",
+    "main.js": "/static/js/main.b50f56be.js",
     "static/js/787.913e7071.chunk.js": "/static/js/787.913e7071.chunk.js",
     "static/media/club201.jpeg": "/static/media/club201.8c24d9d4ebcd296d9dcb.jpeg",
     "static/media/odysseyBeach.png": "/static/media/odysseyBeach.9d9ae304f58edcda8a1a.png",
     "static/media/boomerangsDownUnderBar.jpg": "/static/media/boomerangsDownUnderBar.5a7e14e62f1169b21105.jpg",
     "static/media/stPeteBrewingCompany.jpg": "/static/media/stPeteBrewingCompany.936b23d4b6ea502f1141.jpg",
     "static/media/leburcLogoBorder.png": "/static/media/leburcLogoBorder.ef32a0f4e841c5898333.png",
+    "static/media/headshot.png": "/static/media/headshot.5197f8d18229dc9c6571.png",
     "index.html": "/index.html",
-    "main.761e1c41.css.map": "/static/css/main.761e1c41.css.map",
-    "main.3ce6bf2f.js.map": "/static/js/main.3ce6bf2f.js.map",
+    "main.c6c34f34.css.map": "/static/css/main.c6c34f34.css.map",
+    "main.b50f56be.js.map": "/static/js/main.b50f56be.js.map",
     "787.913e7071.chunk.js.map": "/static/js/787.913e7071.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.761e1c41.css",
-    "static/js/main.3ce6bf2f.js"
+    "static/css/main.c6c34f34.css",
+    "static/js/main.b50f56be.js"
   ]
 }
