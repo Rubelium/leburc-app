@@ -29,7 +29,7 @@ const AppCard = ({ headerText, subHeaderText, url, image, imageCreditText, image
           src={image}
           width={270} />
         {imageCreditText && imageCreditUrl &&
-          <Link className="text-[9px]" href={imageCreditUrl}>{imageCreditText}</Link>
+          <Link className="text-[9px] pt-1" href={imageCreditUrl}>{imageCreditText}</Link>
         }
       </CardBody>
     </Card>

@@ -17,7 +17,7 @@ export default function AppNavbar() {
             <SocialIcon className="App-social-icon-navbar" url="https://soundcloud.com/leburc" bgColor="#ffffff" />
           </NavbarItem>
           <NavbarItem>
-            <SocialIcon className="App-social-icon-navbar" url="https://www.instagram.com/_leburc/" bgColor="#ffffff" />
+            <SocialIcon className="App-social-icon-navbar" url="https://www.instagram.com/leburc.music/" bgColor="#ffffff" />
           </NavbarItem>
           <NavbarItem>
             <SocialIcon className="App-social-icon-navbar" url="https://github.com/Rubelium/leburc-app" bgColor="#ffffff" />
@@ -37,7 +37,7 @@ export default function AppNavbar() {
         </NavbarMenuItem>
         <NavbarMenuItem>
           <Link href="https://www.instagram.com/_leburc/" showAnchorIcon>
-            <SocialIcon className="App-social-icon-navbar" url="https://www.instagram.com/_leburc/" bgColor="#ffffff" />
+            <SocialIcon className="App-social-icon-navbar" url="https://www.instagram.com/leburc.music/" bgColor="#ffffff" />
             <span className="pl-2">Instagram</span>
           </Link>
         </NavbarMenuItem>

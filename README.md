@@ -55,5 +55,5 @@ In the project directory, you can run:
 - Setup video section.
 - Setup notify me section.
 - Setup audio player card.
-- Update coloring scheme for gradients and cards.
 - Fix mobile size of header logo.
+- Carousel for mixes.
