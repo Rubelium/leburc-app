@@ -9,6 +9,7 @@ import { ClapSpinner } from "react-spinners-kit";
 function AppBody() {
   return (
     <div className="font-kanit">
+      <div className="pt-8 bg-[#0f0f0f]"></div>
       <div className="App-body-section pt-5 bg-gradient-to-b from-[#0f0f0f] to-[#1b1b1b] text-black">
         <Button radius="full" size="lg" color="success" variant="shadow" className="h-10 w-48" onPress={() => window.location.href = "https://soundcloud.com/leburc"}>
           LISTEN NOW
