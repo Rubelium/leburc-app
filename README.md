@@ -55,5 +55,5 @@ In the project directory, you can run:
 - Setup contact me modal.
 - Setup write-up section.
 - Setup track/album/mix releases section.
-- Move gh-pages from devDependency.
+- Setup isotope background.
 - Fix deploy warnings.
