@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c6c34f34.css",
-    "main.js": "/static/js/main.b50f56be.js",
+    "main.css": "/static/css/main.d70289bf.css",
+    "main.js": "/static/js/main.f42b2f63.js",
     "static/js/787.913e7071.chunk.js": "/static/js/787.913e7071.chunk.js",
     "static/media/club201.jpeg": "/static/media/club201.8c24d9d4ebcd296d9dcb.jpeg",
     "static/media/odysseyBeach.png": "/static/media/odysseyBeach.9d9ae304f58edcda8a1a.png",
@@ -10,12 +10,12 @@
     "static/media/leburcLogoBorder.png": "/static/media/leburcLogoBorder.ef32a0f4e841c5898333.png",
     "static/media/headshot.png": "/static/media/headshot.5197f8d18229dc9c6571.png",
     "index.html": "/index.html",
-    "main.c6c34f34.css.map": "/static/css/main.c6c34f34.css.map",
-    "main.b50f56be.js.map": "/static/js/main.b50f56be.js.map",
+    "main.d70289bf.css.map": "/static/css/main.d70289bf.css.map",
+    "main.f42b2f63.js.map": "/static/js/main.f42b2f63.js.map",
     "787.913e7071.chunk.js.map": "/static/js/787.913e7071.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6c34f34.css",
-    "static/js/main.b50f56be.js"
+    "static/css/main.d70289bf.css",
+    "static/js/main.f42b2f63.js"
   ]
 }
