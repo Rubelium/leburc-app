@@ -13,7 +13,7 @@ export default {
         success: "#00ff89"
       },
       fontFamily: {
-        'kanit': ['Kanit', 'sans-latin'],
+        'kanit': ['Kanit', 'sans-serif'],
       },
     },
   },

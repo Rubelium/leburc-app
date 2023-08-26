@@ -358,12 +358,12 @@ const AppParticles = () => {
                 "nb_sides": 5
               },
               "image": {
-                "src": "https://cdn.matteobruni.it/images/particles/github.svg",
+                "src": "",
                 "width": 100,
                 "height": 100
               },
               "images": {
-                "src": "https://cdn.matteobruni.it/images/particles/github.svg",
+                "src": "",
                 "width": 100,
                 "height": 100
               }
