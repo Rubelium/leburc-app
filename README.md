@@ -56,3 +56,4 @@ In the project directory, you can run:
 - Setup write-up section.
 - Setup track/album/mix releases section.
 - Move gh-pages from devDependency.
+- Fix deploy warnings.
