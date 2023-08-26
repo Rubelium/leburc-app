@@ -2,7 +2,7 @@ import headshot from "../images/headshot.png"
 import { Avatar, Link } from "@nextui-org/react";
 import { SocialIcon } from "react-social-icons";
 
-export default function AppFooter() {
+function AppFooter() {
   return (
     <footer className="App-footer pt-10 pb-10">
       <div className="flex-row">
@@ -29,3 +29,5 @@ export default function AppFooter() {
     </footer>
   );
 }
+
+export default AppFooter;

@@ -1,7 +1,7 @@
 import logoBorder from '../images/leburcLogoBorder.png';
 import logoLettering from '../images/leburcLogoLettering.png';
 
-export default function AppHeader() {
+function AppHeader() {
   return (
     <header className="App-header">
       <div className="flex absolute overflow-hidden">
@@ -11,3 +11,5 @@ export default function AppHeader() {
     </header>
   );
 }
+
+export default AppHeader;

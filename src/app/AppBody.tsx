@@ -2,10 +2,10 @@ import boomerangsDownUnderBar from "../images/boomerangsDownUnderBar.jpg"
 import club201 from "../images/club201.jpeg"
 import odysseyBeach from "../images/odysseyBeach.png"
 import stPeteBrewingCompany from "../images/stPeteBrewingCompany.jpg"
+import Card from "./AppCard";
 import { ClapSpinner } from "react-spinners-kit";
-import Card from "./Card";
 
-export default function AppBody() {
+function AppBody() {
   return (
     <>
       <div className="h-72 bg-gradient-to-b from-[#0f0f0f] to-[#1b1b1b]"></div>
@@ -52,3 +52,5 @@ export default function AppBody() {
     </>
   );
 }
+
+export default AppBody;

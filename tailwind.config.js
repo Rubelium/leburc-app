@@ -1,6 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 const nextui = require("@nextui-org/react");
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
@@ -15,4 +16,3 @@ export default {
   },
   plugins: [nextui],
 }
-

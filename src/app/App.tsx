@@ -1,12 +1,14 @@
 import '../css/app.css';
-import Header from './Header';
-import Body from './Body';
-import Footer from './Footer';
-import Navbar from './Navbar';
+import Header from './AppHeader';
+import Body from './AppBody';
+import Footer from './AppFooter';
+import Navbar from './AppNavigationBar';
+// import Particles from './AppParticles';
 
-export default function App() {
+function App() {
   return (
     <div className="App dark" data-testid="app-main">
+      {/* <Particles /> */}
       <Navbar />
       <Header />
       <Body />
@@ -14,3 +16,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;

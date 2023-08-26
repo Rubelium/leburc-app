@@ -1,7 +1,7 @@
-import { render, screen } from '@testing-library/react';
 import App from '../App';
+import { render, screen } from '@testing-library/react';
 
-test('renders learn react link', () => {
+test("renders 'app-main' div element", () => {
   render(<App />);
   const appMainDiv = screen.getByTestId("app-main");
   expect(appMainDiv).toBeInTheDocument();
