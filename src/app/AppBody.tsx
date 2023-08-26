@@ -3,13 +3,19 @@ import club201 from "../images/club201.jpeg"
 import odysseyBeach from "../images/odysseyBeach.png"
 import stPeteBrewingCompany from "../images/stPeteBrewingCompany.jpg"
 import Card from "./AppCard";
+import { Button } from "@nextui-org/button";
 import { ClapSpinner } from "react-spinners-kit";
 
 function AppBody() {
   return (
-    <>
-      <div className="h-72 bg-gradient-to-b from-[#0f0f0f] to-[#1b1b1b]"></div>
-      <div className="h-72 bg-gradient-to-b from-[#1b1b1b] to-[#272727]"></div>
+    <div className="font-kanit">
+      <div className="App-body-section pt-5 bg-gradient-to-b from-[#0f0f0f] to-[#1b1b1b] text-black">
+        <Button radius="full" size="lg" color="success" variant="shadow" className="h-10 w-48" onPress={() => window.location.href = "https://soundcloud.com/leburc"}>
+          LISTEN NOW
+        </Button>
+      </div>
+      <div className="App-body-section bg-gradient-to-b from-[#1b1b1b] to-[#272727] text-white text-2xl">
+      </div>
       <div className="App-body-section flex flex-col md:flex-row bg-[#272727]">
         <Card
           headerText={"MIX 006"}
@@ -44,12 +50,12 @@ function AppBody() {
           imageCreditUrl="https://www.instagram.com/f2t4/"
         />
       </div>
-      <div className="h-72 bg-gradient-to-b from-[#272727] to-[#1b1b1b]"></div>
-      <div className="App-body-section bg-[#1b1b1b]">
+      <div className="App-body-section bg-gradient-to-b from-[#272727] to-[#1b1b1b]"></div>
+      <div className="App-body-section flex-col bg-gradient-to-b from-[#1b1b1b] to-[#0f0f0f] text-white">
+        <p className="pb-5 italic">Website is under construction...</p>
         <ClapSpinner size={30} color="#00ff89" loading={true} />
       </div>
-      <div className="h-72 bg-[#1b1b1b]"></div>
-    </>
+    </div>
   );
 }
 

@@ -12,7 +12,7 @@ interface CardProps {
 const AppCard = ({ headerText, subHeaderText, url, image, imageCreditText, imageCreditUrl }: CardProps) => {
   return (
     <Card
-      className={`${imageCreditText && imageCreditUrl && "pb-0"} py-4 m-8  border-4 border-[#00ff89] rounded-2xl bg-[#ffffff] text-black shadow-2xl`}
+      className="py-2 m-8 border-4 border-[#00ff89] rounded-2xl bg-[#ffffff] text-black shadow-2xl"
       onPress={() => window.location.href = url}
       isPressable
     >

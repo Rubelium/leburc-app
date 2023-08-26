@@ -4,7 +4,7 @@ import { SocialIcon } from "react-social-icons";
 
 function AppFooter() {
   return (
-    <footer className="App-footer pt-10 pb-10">
+    <footer className="App-footer pt-10 pb-10 relative">
       <div className="flex-row">
         <SocialIcon className="App-social-icon" url="https://soundcloud.com/leburc" bgColor="#00ff89" />
         <SocialIcon className="App-social-icon" url="https://www.instagram.com/leburc.music/" bgColor="#00ff89" />

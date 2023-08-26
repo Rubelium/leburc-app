@@ -57,3 +57,6 @@ In the project directory, you can run:
 - Setup track/album/mix releases section.
 - Setup isotope background.
 - Fix deploy warnings.
+- Fix sizing for logo and logo border.
+- Fully download Kanit font pack from Google.
+- Fully download svgs used in animations.

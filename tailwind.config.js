@@ -11,7 +11,10 @@ export default {
     extend: {
       colors: {
         success: "#00ff89"
-      }
+      },
+      fontFamily: {
+        'kanit': ['Kanit', 'sans-latin'],
+      },
     },
   },
   plugins: [nextui],
