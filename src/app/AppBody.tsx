@@ -18,38 +18,46 @@ function AppBody() {
       <div className="App-body-section bg-gradient-to-b from-[#1b1b1b] to-[#272727] text-white text-2xl">
       </div>
       <div className="App-body-section flex flex-col md:flex-row bg-[#272727]">
-        <Card
-          headerText={"MIX 006"}
-          subHeaderText={"Minimal / Deep Tech Series"}
-          url={"https://soundcloud.com/leburc/leburc-minimal-deep-tech-006"}
-          image={club201}
-          imageCreditText="@sookie_takes_photos"
-          imageCreditUrl="https://instagram.com/sookie_takes_photos?igshid=MzRlODBiNWFlZA=="
-        />
-        <Card
-          headerText={"MIX 006"}
-          subHeaderText={"Melodic House / Techno Series"}
-          url={"https://soundcloud.com/leburc/leburc-melodic-house-techno-006"}
-          image={boomerangsDownUnderBar}
-          imageCreditText="@sandorimusic"
-          imageCreditUrl="https://www.instagram.com/sandorimusic/"
-        />
-        <Card
-          headerText={"MIX 001"}
-          subHeaderText={"Progressive Series"}
-          url={"https://soundcloud.com/leburc/progressive-house-001"}
-          image={odysseyBeach}
-          imageCreditText="@omf20xx"
-          imageCreditUrl="https://www.instagram.com/omf20xx/"
-        />
-        <Card
-          headerText={"MIX 001"}
-          subHeaderText={"UK Garage / Breaks Series"}
-          url={"https://soundcloud.com/leburc/leburc-uk-garage-bassline-breakbeat-001"}
-          image={stPeteBrewingCompany}
-          imageCreditText="@f2t4"
-          imageCreditUrl="https://www.instagram.com/f2t4/"
-        />
+        <div>
+          <Card
+            headerText={"MIX 006"}
+            subHeaderText={"Minimal / Deep Tech Series"}
+            url={"https://soundcloud.com/leburc/leburc-minimal-deep-tech-006"}
+            image={club201}
+            imageCreditText="@sookie_takes_photos"
+            imageCreditUrl="https://instagram.com/sookie_takes_photos?igshid=MzRlODBiNWFlZA=="
+          />
+          <div className="pt-1">
+            <Card
+              headerText={"MIX 006"}
+              subHeaderText={"Melodic House / Techno Series"}
+              url={"https://soundcloud.com/leburc/leburc-melodic-house-techno-006"}
+              image={boomerangsDownUnderBar}
+              imageCreditText="@sandorimusic"
+              imageCreditUrl="https://www.instagram.com/sandorimusic/"
+            />
+          </div>
+        </div>
+        <div>
+          <Card
+            headerText={"MIX 001"}
+            subHeaderText={"Progressive Series"}
+            url={"https://soundcloud.com/leburc/progressive-house-001"}
+            image={odysseyBeach}
+            imageCreditText="@omf20xx"
+            imageCreditUrl="https://www.instagram.com/omf20xx/"
+          />
+          <div className="pt-1">
+            <Card
+              headerText={"MIX 001"}
+              subHeaderText={"UK Garage / Breaks Series"}
+              url={"https://soundcloud.com/leburc/leburc-uk-garage-bassline-breakbeat-001"}
+              image={stPeteBrewingCompany}
+              imageCreditText="@f2t4"
+              imageCreditUrl="https://www.instagram.com/f2t4/"
+            />
+          </div>
+        </div>
       </div>
       <div className="App-body-section bg-gradient-to-b from-[#272727] to-[#1b1b1b]"></div>
       <div className="App-body-section flex-col bg-gradient-to-b from-[#1b1b1b] to-[#0f0f0f] text-white">
