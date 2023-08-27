@@ -51,7 +51,7 @@ function AppBody() {
         <div>
           <MixCard
             headerText={"MIX PLAYLIST 003"}
-            subHeaderText={"Afro House, Organic House Series"}
+            subHeaderText={"Afro House / Organic House Series"}
             url={"https://soundcloud.com/leburc/sets/afro-house-organic-house"}
             image={boomerangsDownUnderBar}
             imageCreditText="@omf20xx"
