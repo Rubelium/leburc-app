@@ -14,7 +14,7 @@ function AppBody() {
     <div className="font-kanit">
       <div className="pt-8 bg-[#0f0f0f] text-white">
         <p>DJ / Producer / Web Developer</p>
-        <p>Based in Tampa, FL, USA</p>
+        <p className="font-thin">Based in Tampa, FL, USA</p>
       </div>
       {/* <div className="pt-2 bg-[#0f0f0f] text-white">
         <p>Upcoming Events</p>
@@ -28,7 +28,7 @@ function AppBody() {
       <div className="App-body-section bg-gradient-to-b from-[#1b1b1b] to-[#272727] text-white text-2xl">
         <AppLatestMixCard />
       </div>
-      <div className="App-body-section flex flex-col md:flex-row bg-[#272727]">
+      <div className="App-body-section flex-col md:flex-row bg-[#272727]">
         <div>
           <MixCard
             headerText={"MIX PLAYLIST 001"}
@@ -52,7 +52,7 @@ function AppBody() {
         <div>
           <MixCard
             headerText={"MIX PLAYLIST 003"}
-            subHeaderText={"Afro House, Organic House / Downtempo Series"}
+            subHeaderText={"Afro House, Organic House Series"}
             url={"https://soundcloud.com/leburc/sets/afro-house-organic-house"}
             image={odysseyBeach}
             imageCreditText="@omf20xx"
@@ -73,16 +73,7 @@ function AppBody() {
       <div className="App-body-section bg-gradient-to-b from-[#272727] to-[#1b1b1b]">
       </div>
       <div className="App-body-section flex-col bg-gradient-to-b from-[#1b1b1b] to-[#0f0f0f] text-white">
-        <Chip
-          endContent={<NotificationIcon size={18} />}
-          variant="flat"
-          color="success"
-        >
-          Website Under Construction...
-        </Chip>
-        <div className="pt-6">
-          <ClapSpinner size={30} color="#00ff89" loading={true} />
-        </div>
+        <ClapSpinner size={30} color="#00ff89" loading={true} />
       </div>
     </div>
   );

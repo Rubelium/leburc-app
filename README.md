@@ -53,4 +53,3 @@ In the project directory, you can run:
 - Setup write-up section.
 - Setup track release section.
 - Tab section for mixes.
-- Update soundcloud play button color.

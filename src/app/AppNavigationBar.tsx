@@ -16,15 +16,16 @@ function AppNavigationBar() {
         </div>
       </NavbarBrand>
       <NavbarContent justify="end">
-        <div className="sm:flex gap-4">
+        <div className="hidden sm:flex gap-4">
           <NavbarItem className={`${hideAlert ? "hidden" : ""} pt-2`}>
             <Chip
               startContent={<NotificationIcon size={18} />}
               variant="flat"
               color="warning"
+              size="sm"
               onClose={() => setHideAlert(true)}
             >
-              Website Under Construction
+              Under Construction
             </Chip>
           </NavbarItem>
           <NavbarItem>
@@ -43,6 +44,16 @@ function AppNavigationBar() {
         <NavbarMenuToggle className="sm:hidden" />
       </NavbarContent>
       <NavbarMenu className="pt-4 text-white">
+        <NavbarMenuItem className={`${hideAlert ? "hidden" : ""} pt-2`}>
+          <Chip
+            startContent={<NotificationIcon size={18} />}
+            color="warning"
+            size="sm"
+            onClose={() => setHideAlert(true)}
+          >
+            Website Under Construction
+          </Chip>
+        </NavbarMenuItem>
         <NavbarMenuItem>
           <Link href="https://soundcloud.com/leburc" showAnchorIcon>
             <SocialIcon className="App-social-icon-navbar" network="soundcloud" bgColor="#ffffff" />

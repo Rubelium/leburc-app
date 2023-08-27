@@ -4,7 +4,7 @@ import SoundCloudPlayerEmbed from "../embeds/SoundCloudPlayerEmbed";
 function AppLatestMixCard() {
   return (
     <Card
-      className="py-2 m-8 border-2 max-w-[708px] border-[#00ff89] rounded-2xl bg-[#ffffff] text-black shadow-2xl"
+      className="py-2 m-8 border-2 max-w-[690px] border-[#00ff89] rounded-2xl bg-[#ffffff] text-black shadow-2xl"
       fullWidth
     >
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
