@@ -21,7 +21,7 @@ function AppNavigationBar() {
             <Chip
               startContent={<NotificationIcon size={18} />}
               variant="flat"
-              color="warning"
+              color="success"
               size="sm"
               onClose={() => setHideAlert(true)}
             >
@@ -44,12 +44,13 @@ function AppNavigationBar() {
         <NavbarMenuToggle className="sm:hidden" />
       </NavbarContent>
       <NavbarMenu className="pt-4 text-white">
-        <NavbarMenuItem className={`${hideAlert ? "hidden" : ""} pt-2`}>
+        <NavbarMenuItem className={`${hideAlert ? "hidden" : ""} pt-2 pb-4`}>
           <Chip
             startContent={<NotificationIcon size={18} />}
-            color="warning"
+            color="success"
             size="sm"
             onClose={() => setHideAlert(true)}
+            variant="flat"
           >
             Website Under Construction
           </Chip>
