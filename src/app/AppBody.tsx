@@ -6,7 +6,6 @@ import stPeteBrewingCompany from "../images/stPeteBrewingCompany.jpg"
 import AppLatestMixCard from "./AppLatestMixCard";
 import MixCard from "./AppMixCard";
 import { Button } from "@nextui-org/button";
-import { Chip } from "@nextui-org/chip";
 import { ClapSpinner } from "react-spinners-kit";
 
 function AppBody() {
@@ -43,7 +42,7 @@ function AppBody() {
               headerText={"MIX PLAYLIST 002"}
               subHeaderText={"Melodic House / Techno Series"}
               url={"https://soundcloud.com/leburc/sets/melodic-house-techno-mixes"}
-              image={boomerangsDownUnderBar}
+              image={odysseyBeach}
               imageCreditText="@sandorimusic"
               imageCreditUrl="https://www.instagram.com/sandorimusic/"
             />
@@ -54,7 +53,7 @@ function AppBody() {
             headerText={"MIX PLAYLIST 003"}
             subHeaderText={"Afro House, Organic House Series"}
             url={"https://soundcloud.com/leburc/sets/afro-house-organic-house"}
-            image={odysseyBeach}
+            image={boomerangsDownUnderBar}
             imageCreditText="@omf20xx"
             imageCreditUrl="https://www.instagram.com/omf20xx/"
           />
