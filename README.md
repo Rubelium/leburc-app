@@ -48,13 +48,9 @@ In the project directory, you can run:
 
 ### WIP
 
-- Setup upcoming events/tickets section.
+- Setup upcoming events/tickets/tracks section.
 - Setup promotional/label section.
-- Setup notify me section.
-- Setup audio player card.
-- Setup contact me modal.
 - Setup write-up section.
-- Setup track/album/mix releases section.
-- Setup isotope background.
-- Fix deploy warnings.
-- Fix sizing for logo and logo border.
+- Setup track release section.
+- Tab section for mixes.
+- Update soundcloud play button color.

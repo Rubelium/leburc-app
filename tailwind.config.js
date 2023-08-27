@@ -10,7 +10,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        success: "#00ff89"
+        default: "#d4d4d8",
+        success: "#00ff89",
+        warning: "#f5a524",
+        danger: "#f31260"
       },
       fontFamily: {
         'kanit': ['Kanit', 'sans-serif'],

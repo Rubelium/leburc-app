@@ -9,11 +9,10 @@ interface CardProps {
   imageCreditUrl?: string;
 }
 
-const AppCard = ({ headerText, subHeaderText, url, image, imageCreditText, imageCreditUrl }: CardProps) => {
+const AppMixCard = ({ headerText, subHeaderText, url, image, imageCreditText, imageCreditUrl }: CardProps) => {
   return (
     <Card
-      className="py-2 m-8 border-4 border-[#00ff89] rounded-2xl bg-[#ffffff] text-black shadow-2xl"
-      style={{ background: "radial-gradient(at 50% 40%, rgb(255, 255, 255), transparent 80%) repeat scroll 0% 0%, radial-gradient(at 50% -47%, rgb(172, 224, 249), transparent 80%) repeat scroll 0% 0%, radial-gradient(at 0% 0%, rgb(232, 225, 255) 0px, transparent 32%) repeat scroll 0% 0%, radial-gradient(at 100% 98%, #EEF1FF, transparent) repeat scroll 0% 0%, rgba(0, 0, 0, 0) radial-gradient(at 0px 97%, rgb(227, 235, 255), white) repeat scroll 0% 0%" }}
+      className="py-2 m-8 border-2 border-[#00ff89] rounded-2xl bg-[#ffffff] text-black shadow-2xl"
       onPress={() => window.location.href = url}
       isPressable
     >
@@ -37,4 +36,4 @@ const AppCard = ({ headerText, subHeaderText, url, image, imageCreditText, image
   );
 }
 
-export default AppCard;
+export default AppMixCard;

@@ -12,7 +12,7 @@ function AppFooter() {
         <SocialIcon className="App-social-icon" url="mailto:dj.leburc@gmail.com" bgColor="#00ff89" />
       </div>
       <div className="flex pt-10 pb-4">
-        <Avatar className="mt-1" isBordered size="md" color="success" src={headshot} />
+        <Avatar className="mt-1" isBordered size="md" color="default" src={headshot} />
         <div className="pl-4">
           <div className="text-xs font-bold">
             DJ / Producer / Web Developer
