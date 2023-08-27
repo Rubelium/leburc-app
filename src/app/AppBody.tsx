@@ -1,4 +1,3 @@
-import NotificationIcon from "../icons/NotificationIcon";
 import boomerangsDownUnderBar from "../images/boomerangsDownUnderBar.jpg"
 import club201 from "../images/club201.jpeg"
 import odysseyBeach from "../images/odysseyBeach.png"
@@ -7,6 +6,7 @@ import AppLatestMixCard from "./AppLatestMixCard";
 import MixCard from "./AppMixCard";
 import { Button } from "@nextui-org/button";
 import { ClapSpinner } from "react-spinners-kit";
+import { Link } from "@nextui-org/react";
 
 function AppBody() {
   return (
@@ -15,10 +15,10 @@ function AppBody() {
         <p>DJ / Producer / Web Developer</p>
         <p className="font-thin">Based in Tampa, FL, USA</p>
       </div>
-      {/* <div className="pt-2 bg-[#0f0f0f] text-white">
+      <div className="flex-col pt-16  bg-[#0f0f0f] text-white">
         <p>Upcoming Events</p>
-        <p>7 SEP 2023 - Saigon Blonde - St. Petersburg, FL</p>
-      </div> */}
+        <p className="font-thin">7 SEP 2023 - <Link href="https://www.saigonblonde.com/">Saigon Blonde</Link> - St. Petersburg, FL</p>
+      </div>
       <div className="App-body-section bg-gradient-to-b from-[#0f0f0f] to-[#1b1b1b] text-black">
         <Button radius="full" size="lg" color="success" variant="shadow" className="h-10 w-56" onPress={() => window.location.href = "https://soundcloud.com/leburc"}>
           LISTEN NOW

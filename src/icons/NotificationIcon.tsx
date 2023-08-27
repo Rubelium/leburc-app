@@ -7,6 +7,7 @@ interface NotificationIconProps {
 const NotificationIcon = ({ size, height, width }: NotificationIconProps) => {
   return (
     <svg
+      className="pr-1"
       fill="none"
       height={size || height || 24}
       viewBox="0 0 24 24"

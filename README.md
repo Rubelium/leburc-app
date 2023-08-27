@@ -48,9 +48,9 @@ In the project directory, you can run:
 
 ### WIP
 
-- Setup upcoming events/tickets/tracks section.
 - Setup promotional/label section.
 - Setup write-up section.
 - Setup track release section.
+- Expand on upcoming events section.
 - Tab section for mixes.
 - Fix mix playlist 3 b&w.
