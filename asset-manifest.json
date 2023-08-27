@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d53cf331.css",
-    "main.js": "/static/js/main.ecf37c5c.js",
+    "main.js": "/static/js/main.ab809aea.js",
     "static/js/787.913e7071.chunk.js": "/static/js/787.913e7071.chunk.js",
     "static/media/club201.jpeg": "/static/media/club201.8c24d9d4ebcd296d9dcb.jpeg",
     "static/media/odysseyBeach.png": "/static/media/odysseyBeach.9d9ae304f58edcda8a1a.png",
@@ -11,11 +11,11 @@
     "static/media/headshot.png": "/static/media/headshot.5197f8d18229dc9c6571.png",
     "index.html": "/index.html",
     "main.d53cf331.css.map": "/static/css/main.d53cf331.css.map",
-    "main.ecf37c5c.js.map": "/static/js/main.ecf37c5c.js.map",
+    "main.ab809aea.js.map": "/static/js/main.ab809aea.js.map",
     "787.913e7071.chunk.js.map": "/static/js/787.913e7071.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d53cf331.css",
-    "static/js/main.ecf37c5c.js"
+    "static/js/main.ab809aea.js"
   ]
 }
