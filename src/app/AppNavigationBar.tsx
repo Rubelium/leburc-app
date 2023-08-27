@@ -1,9 +1,13 @@
 import logoLettering from "../images/leburcLogoLettering.png"
-import { Link, Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuItem, NavbarMenuToggle } from "@nextui-org/react";
+import { Chip, Link, Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuItem, NavbarMenuToggle } from "@nextui-org/react";
 import { SocialIcon } from "react-social-icons";
 import { ScrollToTop } from "../helpers/ScrollToTop";
+import NotificationIcon from "../icons/NotificationIcon";
+import { useState } from "react";
 
 function AppNavigationBar() {
+  const [hideAlert, setHideAlert] = useState(false);
+
   return (
     <Navbar className="text-white bg-black">
       <NavbarBrand>
@@ -12,7 +16,17 @@ function AppNavigationBar() {
         </div>
       </NavbarBrand>
       <NavbarContent justify="end">
-        <div className="hidden sm:flex gap-4">
+        <div className="sm:flex gap-4">
+          <NavbarItem className={`${hideAlert ? "hidden" : ""} pt-2`}>
+            <Chip
+              startContent={<NotificationIcon size={18} />}
+              variant="flat"
+              color="warning"
+              onClose={() => setHideAlert(true)}
+            >
+              Website Under Construction
+            </Chip>
+          </NavbarItem>
           <NavbarItem>
             <SocialIcon className="App-social-icon-navbar" url="https://soundcloud.com/leburc" bgColor="#ffffff" />
           </NavbarItem>
