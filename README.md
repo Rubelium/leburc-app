@@ -51,6 +51,10 @@ In the project directory, you can run:
 - Setup promotional/label section.
 - Setup write-up section.
 - Setup track release section.
+- Install font pack.
 - Expand on upcoming events section.
 - Tab section for mixes.
 - Fix mix playlist 3 b&w.
+- Fix social preview.
+- Run SEO checkers.
+- Run page performance tests.
