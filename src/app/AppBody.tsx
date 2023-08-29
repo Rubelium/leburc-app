@@ -12,7 +12,7 @@ function AppBody() {
   return (
     <div className="font-kanit">
       <div className="pt-8 bg-[#0f0f0f] text-white">
-        <p>DJ / Producer / Web Developer</p>
+        <p>DJ / Aspiring Producer / Web Developer</p>
         <p className="font-thin">Based in Tampa, FL, USA</p>
       </div>
       <div className="flex-col pt-16  bg-[#0f0f0f] text-white">
