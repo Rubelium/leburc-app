@@ -18,6 +18,9 @@ export default {
       fontFamily: {
         'kanit': ['Kanit', 'sans-serif'],
       },
+      // fontFamily: {
+      //   'Kanit': ['Kanit-Regular', 'Kanit-Bold', 'Kanit-Italic'],
+      // },
     },
   },
   plugins: [nextui],
