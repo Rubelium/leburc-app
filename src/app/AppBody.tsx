@@ -43,7 +43,7 @@ function AppBody() {
               subHeaderText={"Melodic House / Techno Series"}
               url={"https://soundcloud.com/leburc/sets/melodic-house-techno-mixes"}
               image={odysseyBeach}
-              imageCreditText="@sandorimusic"
+              imageCreditText="@omf20xx"
               imageCreditUrl="https://www.instagram.com/sandorimusic/"
             />
           </div>
@@ -54,7 +54,7 @@ function AppBody() {
             subHeaderText={"Afro House / Organic House Series"}
             url={"https://soundcloud.com/leburc/sets/afro-house-organic-house"}
             image={boomerangsDownUnderBar}
-            imageCreditText="@omf20xx"
+            imageCreditText="@sandorimusic"
             imageCreditUrl="https://www.instagram.com/omf20xx/"
           />
           <div className="pt-1">
