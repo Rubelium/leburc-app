@@ -17,7 +17,7 @@ function AppNavigationBar() {
       </NavbarBrand>
       <NavbarContent justify="end">
         <div className="hidden sm:flex gap-4">
-          <NavbarItem className={`${hideAlert ? "hidden" : ""} pt-2`}>
+          <NavbarItem className={`${hideAlert ? "hidden" : ""} pt-2 font-kanit hidden md:flex`}>
             <Chip
               startContent={<NotificationIcon size={18} />}
               variant="flat"
@@ -25,7 +25,7 @@ function AppNavigationBar() {
               size="sm"
               onClose={() => setHideAlert(true)}
             >
-              Under Construction
+              Website Under Construction
             </Chip>
           </NavbarItem>
           <NavbarItem>
@@ -44,7 +44,7 @@ function AppNavigationBar() {
         <NavbarMenuToggle className="sm:hidden" />
       </NavbarContent>
       <NavbarMenu className="pt-4 text-white">
-        <NavbarMenuItem className={`${hideAlert ? "hidden" : ""} pt-2 pb-4`}>
+        <NavbarMenuItem className={`${hideAlert ? "hidden" : ""} pt-2 pb-4 font-kanit`}>
           <Chip
             startContent={<NotificationIcon size={18} />}
             color="success"

@@ -59,3 +59,4 @@ In the project directory, you can run:
 - Update mix playlist 3 image.
 - Update favicon image.
 - Finish installing font pack.
+- Add pop-up for flyers.
