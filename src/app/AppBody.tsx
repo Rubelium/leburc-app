@@ -40,7 +40,7 @@ function AppBody() {
       <div className="App-body-section flex-col md:flex-row bg-[#272727]">
         <div>
           <MixCard
-            headerText={"MIX PLAYLIST 001"}
+            headerText={"MIX PLAYLIST 1"}
             subHeaderText={"Minimal / Deep Tech Series"}
             url={"https://soundcloud.com/leburc/sets/minimal-deep-tech-mixes"}
             image={club201}
@@ -49,7 +49,7 @@ function AppBody() {
           />
           <div className="pt-1">
             <MixCard
-              headerText={"MIX PLAYLIST 002"}
+              headerText={"MIX PLAYLIST 2"}
               subHeaderText={"Melodic House / Techno Series"}
               url={"https://soundcloud.com/leburc/sets/melodic-house-techno-mixes"}
               image={odysseyBeach}
@@ -60,7 +60,7 @@ function AppBody() {
         </div>
         <div>
           <MixCard
-            headerText={"MIX PLAYLIST 003"}
+            headerText={"MIX PLAYLIST 3"}
             subHeaderText={"Afro House / Organic House Series"}
             url={"https://soundcloud.com/leburc/sets/afro-house-organic-house"}
             image={boomerangsDownUnderBar}
@@ -69,7 +69,7 @@ function AppBody() {
           />
           <div className="pt-1">
             <MixCard
-              headerText={"MIX PLAYLIST 004"}
+              headerText={"MIX PLAYLIST 4"}
               subHeaderText={"Miscellaneous Series"}
               url={"https://soundcloud.com/leburc/sets/other-mixes"}
               image={stPeteBrewingCompany}
