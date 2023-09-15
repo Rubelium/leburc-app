@@ -56,5 +56,4 @@ In the project directory, you can run:
 - Run page performance tests.
 - Update social preview image.
 - Update mix playlist 3 image.
-- Update favicon image.
 - Update style sheets into tailwind.
