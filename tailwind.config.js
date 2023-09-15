@@ -16,11 +16,8 @@ export default {
         danger: "#f31260"
       },
       fontFamily: {
-        'kanit': ['Kanit', 'sans-serif'],
+        kanit: ['Kanit', 'sans-serif'],
       },
-      // fontFamily: {
-      //   'Kanit': ['Kanit-Regular', 'Kanit-Bold', 'Kanit-Italic'],
-      // },
     },
   },
   plugins: [nextui],

@@ -94,9 +94,6 @@ function AppBody() {
           </Chip>
         </div>
       </div>
-      {/* <div className="App-body-section flex-col bg-gradient-to-b from-[#1b1b1b] to-[#0f0f0f] text-white">
-        <ClapSpinner size={30} color="#00ff89" loading={true} />
-      </div> */}
     </div>
   );
 }

@@ -49,7 +49,6 @@ In the project directory, you can run:
 ### WIP
 
 - Setup promotional/label section.
-- Setup write-up section.
 - Setup track release section.
 - Setup tab section for mixes.
 - Expand on upcoming events section.
@@ -58,5 +57,4 @@ In the project directory, you can run:
 - Update social preview image.
 - Update mix playlist 3 image.
 - Update favicon image.
-- Finish installing font pack.
-- Add pop-up for flyers.
+- Update style sheets into tailwind.
