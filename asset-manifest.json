@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ddad1f4.css",
+    "main.css": "/static/css/main.2e67b0ad.css",
     "main.js": "/static/js/main.55e8ee59.js",
     "static/js/787.913e7071.chunk.js": "/static/js/787.913e7071.chunk.js",
     "static/media/club201.jpeg": "/static/media/club201.8c24d9d4ebcd296d9dcb.jpeg",
@@ -9,13 +9,31 @@
     "static/media/stPeteBrewingCompany.jpg": "/static/media/stPeteBrewingCompany.936b23d4b6ea502f1141.jpg",
     "static/media/leburcLogoBorder.png": "/static/media/leburcLogoBorder.ef32a0f4e841c5898333.png",
     "static/media/headshot.png": "/static/media/headshot.5197f8d18229dc9c6571.png",
+    "static/media/KanitItalic800.woff2": "/static/media/KanitItalic800.c35cb2f51b749aa344db.woff2",
+    "static/media/KanitItalic700.woff2": "/static/media/KanitItalic700.0e3fd636048779056a52.woff2",
+    "static/media/KanitItalic900.woff2": "/static/media/KanitItalic900.feede30eac8d46854010.woff2",
+    "static/media/KanitItalic600.woff2": "/static/media/KanitItalic600.e259a0e679449f0a9756.woff2",
+    "static/media/KanitItalic300.woff2": "/static/media/KanitItalic300.e02a6f06a4da458ee3ea.woff2",
+    "static/media/KanitItalic400.woff2": "/static/media/KanitItalic400.1962444560090b84732f.woff2",
+    "static/media/KanitItalic500.woff2": "/static/media/KanitItalic500.1a548340c381ab3007c4.woff2",
+    "static/media/KanitItalic200.woff2": "/static/media/KanitItalic200.28b0b22d8606872d916e.woff2",
+    "static/media/KanitNormal600.woff2": "/static/media/KanitNormal600.45b6a8ca0d052bbd1cba.woff2",
+    "static/media/KanitNormal800.woff2": "/static/media/KanitNormal800.e212a383664fd9266da0.woff2",
+    "static/media/KanitNormal400.woff2": "/static/media/KanitNormal400.9d9bac2b2b927039baa5.woff2",
+    "static/media/KanitNormal900.woff2": "/static/media/KanitNormal900.1ca25e0541485d71291c.woff2",
+    "static/media/KanitNormal700.woff2": "/static/media/KanitNormal700.da5a35d44b608fbd380f.woff2",
+    "static/media/KanitItalic100.woff2": "/static/media/KanitItalic100.ddaae194c436560a4370.woff2",
+    "static/media/KanitNormal500.woff2": "/static/media/KanitNormal500.078f3ab95605fc29835e.woff2",
+    "static/media/KanitNormal300.woff2": "/static/media/KanitNormal300.08e90876c22572b9ccaa.woff2",
+    "static/media/KanitNormal200.woff2": "/static/media/KanitNormal200.cd5c54a9cf6c99686cd9.woff2",
+    "static/media/KanitNormal100.woff2": "/static/media/KanitNormal100.66caf2e717edbb7f5ced.woff2",
     "index.html": "/index.html",
-    "main.8ddad1f4.css.map": "/static/css/main.8ddad1f4.css.map",
+    "main.2e67b0ad.css.map": "/static/css/main.2e67b0ad.css.map",
     "main.55e8ee59.js.map": "/static/js/main.55e8ee59.js.map",
     "787.913e7071.chunk.js.map": "/static/js/787.913e7071.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ddad1f4.css",
+    "static/css/main.2e67b0ad.css",
     "static/js/main.55e8ee59.js"
   ]
 }
