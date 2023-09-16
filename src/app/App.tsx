@@ -7,7 +7,7 @@ import Particles from './AppParticles';
 
 function App() {
   return (
-    <div className="App dark" data-testid="app-main">
+    <div className="App dark caret-transparent text-center" data-testid="app-main">
       <Particles />
       <Navbar />
       <Header />

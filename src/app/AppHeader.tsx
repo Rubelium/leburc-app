@@ -3,7 +3,7 @@ import logoLettering from '../images/leburcLogoLettering.avif';
 
 function AppHeader() {
   return (
-    <header className="App-header">
+    <header className="App-header flex flex-col items-center justify-center pt-[20px] min-h-[50vh] bg-[#0f0f0f]">
       <div className="flex absolute overflow-hidden">
         <img src={logoBorder} className="App-leburc-logo-border max-h-[450px] bg-[#0f0f0f] relative" alt="Loading..." />
       </div>

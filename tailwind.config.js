@@ -21,4 +21,5 @@ export default {
     },
   },
   plugins: [nextui],
+  important: true,
 }

@@ -29,15 +29,15 @@ function AppBody() {
         <p className="font-thin">16 SEP 2023 - <Link className="font-extralight hover:underline" href="https://www.facebook.com/districtsaintpete/">District Lounge</Link> - St. Petersburg, FL</p>
         <p className="font-thin">29 OCT 2023 - <Link isDisabled href="">TBA</Link> - St. Petersburg, FL</p>
       </div>
-      <div className="App-body-section bg-gradient-to-b from-[#0f0f0f] to-[#1b1b1b] text-black">
+      <div className="flex items-center justify-center min-h-[25vh] bg-gradient-to-b from-[#0f0f0f] to-[#1b1b1b] text-black">
         <Button radius="full" size="lg" color="success" variant="shadow" className="h-10 w-56" onPress={() => window.location.href = "https://soundcloud.com/leburc"}>
           LISTEN NOW
         </Button>
       </div>
-      <div className="App-body-section bg-gradient-to-b from-[#1b1b1b] to-[#272727] text-white text-2xl">
+      <div className="flex items-center justify-center min-h-[25vh] bg-gradient-to-b from-[#1b1b1b] to-[#272727] text-white text-2xl">
         <AppLatestMixCard />
       </div>
-      <div className="App-body-section flex-col md:flex-row bg-[#272727]">
+      <div className="flex items-center justify-center min-h-[25vh] flex-col md:flex-row bg-[#272727]">
         <div>
           <MixCard
             headerText={"MIX PLAYLIST 1"}
@@ -79,7 +79,7 @@ function AppBody() {
           </div>
         </div>
       </div>
-      <div className="App-body-section flex-col bg-gradient-to-b from-[#272727] to-[#0f0f0f]">
+      <div className="flex items-center justify-center min-h-[25vh] flex-col bg-gradient-to-b from-[#272727] to-[#0f0f0f]">
         <ClapSpinner size={30} color="#00ff89" loading={true} />
         <div>
           <Chip

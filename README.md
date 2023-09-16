@@ -55,4 +55,3 @@ In the project directory, you can run:
 - Run SEO checkers.
 - Run page performance tests.
 - Update style sheets into tailwind.
-- Compress image sizes.
