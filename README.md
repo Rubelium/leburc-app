@@ -54,4 +54,3 @@ In the project directory, you can run:
 - Expand on upcoming events section.
 - Run SEO checkers.
 - Run page performance tests.
-- Update style sheets into tailwind.
