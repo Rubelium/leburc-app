@@ -54,6 +54,4 @@ In the project directory, you can run:
 - Expand on upcoming events section.
 - Run SEO checkers.
 - Run page performance tests.
-- Update social preview image.
-- Update mix playlist 3 image.
 - Update style sheets into tailwind.
