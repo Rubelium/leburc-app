@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e67b0ad.css",
-    "main.js": "/static/js/main.55e8ee59.js",
+    "main.css": "/static/css/main.29497719.css",
+    "main.js": "/static/js/main.81318e30.js",
     "static/js/787.913e7071.chunk.js": "/static/js/787.913e7071.chunk.js",
-    "static/media/club201.jpeg": "/static/media/club201.8c24d9d4ebcd296d9dcb.jpeg",
-    "static/media/odysseyBeach.png": "/static/media/odysseyBeach.9d9ae304f58edcda8a1a.png",
-    "static/media/boomerangsDownUnderBar.jpg": "/static/media/boomerangsDownUnderBar.5a7e14e62f1169b21105.jpg",
-    "static/media/stPeteBrewingCompany.jpg": "/static/media/stPeteBrewingCompany.936b23d4b6ea502f1141.jpg",
-    "static/media/leburcLogoBorder.png": "/static/media/leburcLogoBorder.ef32a0f4e841c5898333.png",
-    "static/media/headshot.png": "/static/media/headshot.5197f8d18229dc9c6571.png",
+    "static/media/boomerangsDownUnderBar.avif": "/static/media/boomerangsDownUnderBar.6ab068a62c7e5acb74de.avif",
+    "static/media/headshot.avif": "/static/media/headshot.673c8a754679fca930f6.avif",
+    "static/media/leburcLogoBorder.avif": "/static/media/leburcLogoBorder.1fce75db8f09469005f8.avif",
+    "static/media/club201.avif": "/static/media/club201.e2d8dc829d30a6cfd356.avif",
+    "static/media/odysseyBeach.avif": "/static/media/odysseyBeach.2352d2c01ce572297cbb.avif",
+    "static/media/stPeteBrewingCompany.avif": "/static/media/stPeteBrewingCompany.c4b8aab88d04c2d2d4ba.avif",
     "static/media/KanitItalic800.woff2": "/static/media/KanitItalic800.c35cb2f51b749aa344db.woff2",
     "static/media/KanitItalic700.woff2": "/static/media/KanitItalic700.0e3fd636048779056a52.woff2",
     "static/media/KanitItalic900.woff2": "/static/media/KanitItalic900.feede30eac8d46854010.woff2",
@@ -27,13 +27,14 @@
     "static/media/KanitNormal300.woff2": "/static/media/KanitNormal300.08e90876c22572b9ccaa.woff2",
     "static/media/KanitNormal200.woff2": "/static/media/KanitNormal200.cd5c54a9cf6c99686cd9.woff2",
     "static/media/KanitNormal100.woff2": "/static/media/KanitNormal100.66caf2e717edbb7f5ced.woff2",
+    "static/media/leburcLogoLettering.avif": "/static/media/leburcLogoLettering.ff55f3fcc2d1ce6e5041.avif",
     "index.html": "/index.html",
-    "main.2e67b0ad.css.map": "/static/css/main.2e67b0ad.css.map",
-    "main.55e8ee59.js.map": "/static/js/main.55e8ee59.js.map",
+    "main.29497719.css.map": "/static/css/main.29497719.css.map",
+    "main.81318e30.js.map": "/static/js/main.81318e30.js.map",
     "787.913e7071.chunk.js.map": "/static/js/787.913e7071.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e67b0ad.css",
-    "static/js/main.55e8ee59.js"
+    "static/css/main.29497719.css",
+    "static/js/main.81318e30.js"
   ]
 }
