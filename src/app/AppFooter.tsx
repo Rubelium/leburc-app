@@ -1,4 +1,4 @@
-import headshot from "../images/headshot.png"
+import headshot from "../images/headshot.avif"
 import { Avatar, Link } from "@nextui-org/react";
 import { SocialIcon } from "react-social-icons";
 

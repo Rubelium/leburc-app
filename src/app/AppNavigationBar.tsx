@@ -1,4 +1,4 @@
-import logoLettering from "../images/leburcLogoLettering.png"
+import logoLettering from "../images/leburcLogoLettering.avif"
 import { Chip, Link, Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuItem, NavbarMenuToggle } from "@nextui-org/react";
 import { SocialIcon } from "react-social-icons";
 import { ScrollToTop } from "../helpers/ScrollToTop";

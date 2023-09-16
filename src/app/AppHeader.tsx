@@ -1,5 +1,5 @@
-import logoBorder from '../images/leburcLogoBorder.png';
-import logoLettering from '../images/leburcLogoLettering.png';
+import logoBorder from '../images/leburcLogoBorder.avif';
+import logoLettering from '../images/leburcLogoLettering.avif';
 
 function AppHeader() {
   return (
