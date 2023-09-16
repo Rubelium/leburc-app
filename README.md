@@ -52,5 +52,5 @@ In the project directory, you can run:
 - Setup track release section.
 - Setup tab section for mixes.
 - Expand on upcoming events section.
-- Run SEO checkers.
-- Run page performance tests.
+- Run SEO and performance tests.
+- Optimize bundle size.

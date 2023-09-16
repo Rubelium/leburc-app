@@ -16,7 +16,7 @@ function AppBody() {
   return (
     <div className="font-kanit">
       <div className="pt-8 bg-[#0f0f0f] text-white">
-        <h1 className="text-xl">DJ / Aspiring Producer</h1>
+        <h1 className="text-2xl">DJ / Aspiring Producer</h1>
         <h2 className="font-thin">Based in Tampa, FL, USA</h2>
       </div>
       <div className="flex-col pt-16  bg-[#0f0f0f] text-white">
@@ -30,7 +30,7 @@ function AppBody() {
         <p className="font-thin">29 OCT 2023 - <Link isDisabled href="">TBA</Link> - St. Petersburg, FL</p>
       </div>
       <div className="flex items-center justify-center min-h-[25vh] bg-gradient-to-b from-[#0f0f0f] to-[#1b1b1b] text-black">
-        <Button radius="full" size="lg" color="success" variant="shadow" className="h-10 w-56" onPress={() => window.location.href = "https://soundcloud.com/leburc"}>
+        <Button radius="full" size="lg" color="success" variant="shadow" className="h-10 w-56 hover:text-white" onPress={() => window.location.href = "https://soundcloud.com/leburc"}>
           LISTEN NOW
         </Button>
       </div>
