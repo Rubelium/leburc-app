@@ -15,13 +15,13 @@ function AppFooter() {
         <Avatar className="mt-1" isBordered size="md" color="default" src={headshot} />
         <div className="pl-4">
           <div className="text-xs font-bold">
-            DJ / Producer / Web Developer
+            DJ / Website Developer
           </div>
           <div className="text-xs">
-            Email: <Link href="mailto:dj.leburc@gmail.com">dj.leburc@gmail.com</Link>
+            <Link href="mailto:dj.leburc@gmail.com">dj.leburc@gmail.com</Link>
           </div>
           <div className="text-xs">
-            Instagram: <Link href="https://www.instagram.com/leburc.music/">@leburc.music</Link>
+            <Link href="https://www.instagram.com/leburc.music/">@leburc.music</Link>
           </div>
         </div>
       </div>

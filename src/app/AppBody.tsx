@@ -26,8 +26,8 @@ function AppBody() {
         <p className="font-thin line-through text-gray-400">18 MAY 2023 - <Link className="line-through" href="https://www.saigonblonde.com/">Saigon Blonde</Link> - St. Petersburg, FL</p>
         <p className="font-thin line-through text-gray-400">27 JULY 2023 - <Link className="line-through" href="http://www.club-201.com/">Club 201</Link> - St. Petersburg, FL</p>
         <p className="font-thin line-through text-gray-400">7 SEP 2023 - <Link className="line-through" href="https://www.saigonblonde.com/">Saigon Blonde</Link> - St. Petersburg, FL</p>
-        <p className="font-thin">16 SEP 2023 - <Link className="font-extralight hover:underline" href="https://www.facebook.com/districtsaintpete/">District Lounge</Link> - St. Petersburg, FL</p>
-        <p className="font-thin">29 OCT 2023 - <Link isDisabled href="">TBA</Link> - St. Petersburg, FL</p>
+        <p className="font-thin line-through text-gray-400">16 SEP 2023 - <Link className="line-through" href="https://www.facebook.com/districtsaintpete/">District Lounge</Link> - St. Petersburg, FL</p>
+        <p className="font-thin">29 OCT 2023 - <Link className="font-extralight hover:underline" isDisabled href="">TBA</Link> - St. Petersburg, FL</p>
       </div>
       <div className="flex items-center justify-center min-h-[25vh] bg-gradient-to-b from-[#0f0f0f] to-[#1b1b1b] text-black">
         <Button radius="full" size="lg" color="success" variant="shadow" className="h-10 w-56 hover:text-white" onPress={() => window.location.href = "https://soundcloud.com/leburc"}>
