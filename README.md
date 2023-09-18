@@ -48,9 +48,8 @@ In the project directory, you can run:
 
 ### WIP
 
-- Setup promotional/label section.
+- Setup promotional/label/collective section.
 - Setup track release section.
 - Setup tab section for mixes.
-- Expand on upcoming events section.
 - Run SEO and performance tests.
-- Optimize bundle size.
+- Replace SoundCloud widget.
