@@ -12,15 +12,15 @@ function AppFooter() {
       </div>
       <div className="flex pt-10 pb-4">
         {/* <Avatar className="mt-3" isBordered size="md" color="default" src={headshot} /> */}
-        <div className="pl-4">
+        <div>
           <div className="text-xs font-bold">
             DJ / Aspiring Producer / Developer
           </div>
-          <div className="text-xs pt-2">
-            Email: <Link className="pt-0.5 pb-0.5 hover:underline" href="mailto:dj.leburc@gmail.com">dj.leburc@gmail.com</Link>
+          <div className="text-xs pt-3">
+            Email: <Link className="pt-1 pb-1 hover:underline" href="mailto:dj.leburc@gmail.com">dj.leburc@gmail.com</Link>
           </div>
-          <div className="text-xs pt-1">
-            Instagram: <Link className="pt-0.5 pb-0.5 hover:underline" href="https://www.instagram.com/leburc.music/">@leburc.music</Link>
+          <div className="text-xs pt-2">
+            Instagram: <Link className="pt-1 pb-1 hover:underline" href="https://www.instagram.com/leburc.music/">@leburc.music</Link>
           </div>
         </div>
       </div>
