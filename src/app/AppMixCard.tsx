@@ -27,7 +27,9 @@ const AppMixCard = ({ headerText, subHeaderText, url, image, imageCreditText, im
           alt="Card background"
           className="object-cover rounded-xl"
           src={image}
-          width={270} />
+          width={270}
+          height={180}
+        />
         {imageCreditText && imageCreditUrl &&
           <Link className="text-[9px] pt-1" href={imageCreditUrl}>Image Credits: {imageCreditText}</Link>
         }

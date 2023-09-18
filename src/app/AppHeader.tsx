@@ -5,9 +5,9 @@ function AppHeader() {
   return (
     <header className="App-header flex flex-col items-center justify-center pt-[20px] min-h-[50vh] bg-[#0f0f0f]">
       <div className="flex absolute overflow-hidden">
-        <img src={logoBorder} className="App-leburc-logo-border max-h-[450px] bg-[#0f0f0f] relative" alt="Loading..." />
+        <img src={logoBorder} width={450} height={450} className="App-leburc-logo-border max-h-[450px] bg-[#0f0f0f] relative" alt="Loading..." />
       </div>
-      <img src={logoLettering} className="max-h-[35px] z-10" alt="Loading..." />
+      <img src={logoLettering} width={213} height={45} className="max-h-[35px] z-10" alt="Loading..." />
     </header>
   );
 }
