@@ -17,10 +17,10 @@ function AppFooter() {
             DJ / Aspiring Producer / Developer
           </div>
           <div className="text-xs pt-3">
-            Email: <Link className="pt-1 pb-1 hover:underline" href="mailto:dj.leburc@gmail.com">dj.leburc@gmail.com</Link>
+            Email: <Link className="pt-1 pb-1 hover:underline font-thin" href="mailto:dj.leburc@gmail.com">dj.leburc@gmail.com</Link>
           </div>
           <div className="text-xs pt-2">
-            Instagram: <Link className="pt-1 pb-1 hover:underline" href="https://www.instagram.com/leburc.music/">@leburc.music</Link>
+            Instagram: <Link className="pt-1 pb-1 hover:underline font-thin" href="https://www.instagram.com/leburc.music/">@leburc.music</Link>
           </div>
         </div>
       </div>

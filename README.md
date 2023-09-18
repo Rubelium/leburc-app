@@ -51,5 +51,4 @@ In the project directory, you can run:
 - Setup promotional/label/collective section.
 - Setup track release section.
 - Setup tab section for mixes.
-- Run SEO and performance tests.
 - Replace SoundCloud widget.

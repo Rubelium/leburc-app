@@ -9,6 +9,7 @@ import { Button } from "@nextui-org/button";
 import { ClapSpinner } from "react-spinners-kit";
 import { Chip, Link } from "@nextui-org/react";
 import { useState } from "react";
+import AppMediaPlayer from "./AppMediaPlayer";
 
 function AppBody() {
   const [hideAlert, setHideAlert] = useState(false);
@@ -36,6 +37,7 @@ function AppBody() {
       </div>
       <div className="flex items-center justify-center min-h-[25vh] bg-gradient-to-b from-[#1b1b1b] to-[#272727] text-white text-2xl">
         <AppLatestMixCard />
+        {/* <AppMediaPlayer /> */}
       </div>
       <div className="flex items-center justify-center min-h-[25vh] flex-col md:flex-row bg-[#272727]">
         <div>
