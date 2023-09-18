@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed983448.css",
-    "main.js": "/static/js/main.239967df.js",
+    "main.css": "/static/css/main.493c2159.css",
+    "main.js": "/static/js/main.346f3d4c.js",
     "static/js/787.913e7071.chunk.js": "/static/js/787.913e7071.chunk.js",
     "static/media/boomerangsDownUnderBar.avif": "/static/media/boomerangsDownUnderBar.6ab068a62c7e5acb74de.avif",
     "static/media/leburcLogoBorder.avif": "/static/media/leburcLogoBorder.1fce75db8f09469005f8.avif",
@@ -28,12 +28,12 @@
     "static/media/KanitNormal100.woff2": "/static/media/KanitNormal100.66caf2e717edbb7f5ced.woff2",
     "static/media/leburcLogoLettering.avif": "/static/media/leburcLogoLettering.ff55f3fcc2d1ce6e5041.avif",
     "index.html": "/index.html",
-    "main.ed983448.css.map": "/static/css/main.ed983448.css.map",
-    "main.239967df.js.map": "/static/js/main.239967df.js.map",
+    "main.493c2159.css.map": "/static/css/main.493c2159.css.map",
+    "main.346f3d4c.js.map": "/static/js/main.346f3d4c.js.map",
     "787.913e7071.chunk.js.map": "/static/js/787.913e7071.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed983448.css",
-    "static/js/main.239967df.js"
+    "static/css/main.493c2159.css",
+    "static/js/main.346f3d4c.js"
   ]
 }
