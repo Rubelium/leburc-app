@@ -13,7 +13,7 @@ function AppLatestMixCard() {
         </p>
       </CardHeader>
       <CardBody className="overflow-visible py-2 px-0 items-center">
-        {/* <SoundCloudPlayerEmbed /> */}
+        <SoundCloudPlayerEmbed />
       </CardBody>
     </Card>
   );
