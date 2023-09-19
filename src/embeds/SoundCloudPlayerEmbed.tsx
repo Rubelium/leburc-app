@@ -3,7 +3,7 @@ function SoundCloudPlayerEmbed() {
     <iframe
       title="SoundCloud Player Embed"
       className="z-10 max-w-2xl"
-      width="90%"
+      width="100%"
       height="166"
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
       loading="lazy"
