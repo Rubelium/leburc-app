@@ -16,11 +16,11 @@ function AppFooter() {
           <div className="text-xs font-bold">
             DJ / Aspiring Producer / Developer
           </div>
-          <div className="text-xs pt-3">
-            Email: <Link className="pt-1 pb-1 hover:underline font-thin" href="mailto:dj.leburc@gmail.com">dj.leburc@gmail.com</Link>
+          <div className="text-xs pt-3 font-medium">
+            Email: <Link className="pt-0.5 pb-0.5 hover:underline font-thin" href="mailto:dj.leburc@gmail.com">dj.leburc@gmail.com</Link>
           </div>
-          <div className="text-xs pt-2">
-            Instagram: <Link className="pt-1 pb-1 hover:underline font-thin" href="https://www.instagram.com/leburc.music/">@leburc.music</Link>
+          <div className="text-xs pt-2 font-medium">
+            Instagram: <Link className="pt-0.5 pb-0.5 hover:underline font-thin" href="https://www.instagram.com/leburc.music/">@leburc.music</Link>
           </div>
         </div>
       </div>
