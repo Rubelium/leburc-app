@@ -25,7 +25,7 @@ function AppNavigationBar() {
               size="sm"
               onClose={() => setHideAlert(true)}
             >
-              Website Under Construction
+              <p className="pr-2">Website Under Construction</p>
             </Chip>
           </NavbarItem>
           <NavbarItem>
@@ -52,7 +52,7 @@ function AppNavigationBar() {
             onClose={() => setHideAlert(true)}
             variant="flat"
           >
-            Website Under Construction
+            <p className="pr-2">Website Under Construction</p>
           </Chip>
         </NavbarMenuItem>
         <NavbarMenuItem>

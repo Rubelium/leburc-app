@@ -1,5 +1,6 @@
 import boomerangsDownUnderBar from "../images/boomerangsDownUnderBar.avif"
 import club201 from "../images/club201.avif"
+import headshot from "../images/headshot.avif"
 import odysseyBeach from "../images/odysseyBeach.avif"
 import stPeteBrewingCompany from "../images/stPeteBrewingCompany.avif"
 import NotificationIcon from "../icons/NotificationIcon";
@@ -7,12 +8,9 @@ import AppLatestMixCard from "./AppLatestMixCard";
 import MixCard from "./AppMixCard";
 import { Button } from "@nextui-org/button";
 import { ClapSpinner } from "react-spinners-kit";
-import { Chip, Link } from "@nextui-org/react";
-import { useState } from "react";
+import { Accordion, AccordionItem, Avatar, Chip, Link } from "@nextui-org/react";
 
 function AppBody() {
-  const [hideAlert, setHideAlert] = useState(false);
-
   return (
     <div className="font-kanit">
       <div className="pt-8 bg-[#0f0f0f] text-white">
@@ -80,18 +78,37 @@ function AppBody() {
         </div>
       </div>
       <div className="flex items-center justify-center min-h-[25vh] flex-col bg-gradient-to-b from-[#272727] to-[#0f0f0f]">
-        <ClapSpinner size={30} color="#00ff89" loading={true} />
-        <div>
-          <Chip
-            className={`${hideAlert ? "hidden" : ""} mt-4`}
-            startContent={<NotificationIcon size={18} />}
-            variant="flat"
-            color="success"
-            size="sm"
-            onClose={() => setHideAlert(true)}
-          >
-            Website Under Construction
-          </Chip>
+        <div className="w-60 sm:w-80">
+          <Accordion variant="shadow">
+            <AccordionItem
+              key="1"
+              className="text-white items-center flex-col"
+              aria-label="Biography Accordion"
+              title="Biography"
+              subtitle={
+                <p className="flex text-sm font-thin">
+                  Press to expand
+                </p>
+              }
+              startContent={
+                <Avatar className="mt-3" isBordered size="md" color="default" src={headshot} />
+              }
+            >
+              <div className="pb-4">
+                <Chip
+                  startContent={<NotificationIcon size={18} />}
+                  variant="flat"
+                  color="success"
+                  size="sm"
+                >
+                  <p className="pr-1">Under Construction . . .</p>
+                </Chip>
+              </div>
+              <div className="inline-flex">
+                <ClapSpinner radius="lg" color="#00ff89" loading={true} />
+              </div>
+            </AccordionItem>
+          </Accordion>
         </div>
       </div>
     </div>
