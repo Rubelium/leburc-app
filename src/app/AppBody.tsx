@@ -178,7 +178,7 @@ function AppBody() {
                 <Chip
                   startContent={<NotificationIcon size={18} />}
                   variant="flat"
-                  color="warning"
+                  color="success"
                   size="sm"
                 >
                   <p className="pr-1">Under Construction . . .</p>
