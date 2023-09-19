@@ -52,6 +52,5 @@ In the project directory, you can run:
 - Setup track release section.
 - Setup modal for playlists.
 - Setup biography.
-- Update tap target area for accordion.
 - Run SEO/performance checker.
 - Code cleanup.

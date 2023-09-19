@@ -7,8 +7,8 @@ import NotificationIcon from "../icons/NotificationIcon";
 import AppLatestMixCard from "./AppLatestMixCard";
 import MixCard from "./AppMixCard";
 import { Button } from "@nextui-org/button";
-import { ClapSpinner } from "react-spinners-kit";
-import { Accordion, AccordionItem, Avatar, Chip, Link } from "@nextui-org/react";
+import { ImpulseSpinner } from "react-spinners-kit";
+import { Accordion, AccordionItem, Avatar, Badge, Chip, Link } from "@nextui-org/react";
 
 function AppBody() {
   return (
@@ -78,7 +78,7 @@ function AppBody() {
         </div>
       </div>
       <div className="flex items-center justify-center min-h-[25vh] flex-col bg-gradient-to-b from-[#272727] to-[#0f0f0f]">
-        <div className="w-60 sm:w-80">
+        <div className="w-64 sm:w-80">
           <Accordion variant="shadow">
             <AccordionItem
               key="1"
@@ -91,21 +91,23 @@ function AppBody() {
                 </p>
               }
               startContent={
-                <Avatar className="mt-3" isBordered size="md" color="default" src={headshot} />
+                <Badge className="mt-4 z-10 mr-1" content={"i"} color="warning" variant="solid">
+                  <Avatar className="mt-3 mr-2" isBordered size="lg" color="default" src={headshot} />
+                </Badge>
               }
             >
               <div className="pb-4">
                 <Chip
                   startContent={<NotificationIcon size={18} />}
                   variant="flat"
-                  color="success"
+                  color="warning"
                   size="sm"
                 >
                   <p className="pr-1">Under Construction . . .</p>
                 </Chip>
               </div>
               <div className="inline-flex">
-                <ClapSpinner radius="lg" color="#00ff89" loading={true} />
+                <ImpulseSpinner radius="md" loading={true} />
               </div>
             </AccordionItem>
           </Accordion>
