@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1e5f7d73.css",
-    "main.js": "/static/js/main.37d1a6c0.js",
+    "main.js": "/static/js/main.cd87ffeb.js",
     "static/js/787.913e7071.chunk.js": "/static/js/787.913e7071.chunk.js",
     "static/media/boomerangsDownUnderBar.avif": "/static/media/boomerangsDownUnderBar.6ab068a62c7e5acb74de.avif",
     "static/media/leburcLogoBorder.avif": "/static/media/leburcLogoBorder.1fce75db8f09469005f8.avif",
@@ -29,11 +29,11 @@
     "static/media/leburcLogoLettering.avif": "/static/media/leburcLogoLettering.ff55f3fcc2d1ce6e5041.avif",
     "index.html": "/index.html",
     "main.1e5f7d73.css.map": "/static/css/main.1e5f7d73.css.map",
-    "main.37d1a6c0.js.map": "/static/js/main.37d1a6c0.js.map",
+    "main.cd87ffeb.js.map": "/static/js/main.cd87ffeb.js.map",
     "787.913e7071.chunk.js.map": "/static/js/787.913e7071.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e5f7d73.css",
-    "static/js/main.37d1a6c0.js"
+    "static/js/main.cd87ffeb.js"
   ]
 }
