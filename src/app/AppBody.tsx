@@ -148,7 +148,7 @@ function AppBody() {
       </div>
       <div className="flex items-center justify-center min-h-[25vh] flex-col bg-gradient-to-b from-[#272727] to-[#0f0f0f]">
         <div className="w-64 sm:w-80">
-          <Accordion variant="shadow">
+          <Accordion variant="shadow" showDivider={false}>
             <AccordionItem
               key="1"
               className="text-white items-center flex-col"
@@ -167,7 +167,8 @@ function AppBody() {
                   variant="solid">
                   <Avatar
                     className="mt-3 mr-2"
-                    isBordered size="lg"
+                    isBordered
+                    size="lg"
                     color="default"
                     src={headshot} />
                 </Badge>
