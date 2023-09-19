@@ -56,25 +56,25 @@ function AppNavigationBar() {
           </Chip>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link href="https://soundcloud.com/leburc" showAnchorIcon>
+          <Link href="https://soundcloud.com/leburc">
             <SocialIcon className="App-social-icon-navbar h-[40px] w-[40px]" network="soundcloud" bgColor="#ffffff" />
             <span className="pl-2">SoundCloud</span>
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link href="https://www.instagram.com/leburc.music/" showAnchorIcon>
+          <Link href="https://www.instagram.com/leburc.music/">
             <SocialIcon className="App-social-icon-navbar h-[40px] w-[40px]" network="instagram" bgColor="#ffffff" />
             <span className="pl-2">Instagram</span>
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link href="https://github.com/Rubelium/leburc-app" showAnchorIcon>
+          <Link href="https://github.com/Rubelium/leburc-app">
             <SocialIcon className="App-social-icon-navbar h-[40px] w-[40px]" network="github" bgColor="#ffffff" />
             <span className="pl-2">GitHub</span>
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link href="mailto:dj.leburc@gmail.com" showAnchorIcon>
+          <Link href="mailto:dj.leburc@gmail.com">
             <SocialIcon className="App-social-icon-navbar h-[40px] w-[40px]" network="email" bgColor="#ffffff" />
             <span className="pl-2">Email</span>
           </Link>
