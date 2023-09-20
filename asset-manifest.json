@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.24568b6f.css",
-    "main.js": "/static/js/main.ef56147d.js",
+    "main.css": "/static/css/main.b616b91d.css",
+    "main.js": "/static/js/main.ee5e3552.js",
     "static/js/787.913e7071.chunk.js": "/static/js/787.913e7071.chunk.js",
     "static/media/saigonBlonde3.avif": "/static/media/saigonBlonde3.dacd0cc14c8e27e18a01.avif",
     "static/media/leburcLogoBorder.avif": "/static/media/leburcLogoBorder.1fce75db8f09469005f8.avif",
@@ -29,12 +29,12 @@
     "static/media/KanitNormal100.woff2": "/static/media/KanitNormal100.66caf2e717edbb7f5ced.woff2",
     "static/media/leburcLogoLettering.avif": "/static/media/leburcLogoLettering.ff55f3fcc2d1ce6e5041.avif",
     "index.html": "/index.html",
-    "main.24568b6f.css.map": "/static/css/main.24568b6f.css.map",
-    "main.ef56147d.js.map": "/static/js/main.ef56147d.js.map",
+    "main.b616b91d.css.map": "/static/css/main.b616b91d.css.map",
+    "main.ee5e3552.js.map": "/static/js/main.ee5e3552.js.map",
     "787.913e7071.chunk.js.map": "/static/js/787.913e7071.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24568b6f.css",
-    "static/js/main.ef56147d.js"
+    "static/css/main.b616b91d.css",
+    "static/js/main.ee5e3552.js"
   ]
 }
