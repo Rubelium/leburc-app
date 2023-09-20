@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.7f3d5f29.css",
-    "main.js": "/static/js/main.92b78e38.js",
+    "main.css": "/static/css/main.24568b6f.css",
+    "main.js": "/static/js/main.618a4779.js",
     "static/js/787.913e7071.chunk.js": "/static/js/787.913e7071.chunk.js",
-    "static/media/boomerangsDownUnderBar.avif": "/static/media/boomerangsDownUnderBar.6ab068a62c7e5acb74de.avif",
-    "static/media/headshot.avif": "/static/media/headshot.673c8a754679fca930f6.avif",
+    "static/media/saigonBlonde3.avif": "/static/media/saigonBlonde3.dacd0cc14c8e27e18a01.avif",
     "static/media/leburcLogoBorder.avif": "/static/media/leburcLogoBorder.1fce75db8f09469005f8.avif",
     "static/media/club201.avif": "/static/media/club201.e2d8dc829d30a6cfd356.avif",
     "static/media/odysseyBeach.avif": "/static/media/odysseyBeach.2352d2c01ce572297cbb.avif",
+    "static/media/headshotColored.avif": "/static/media/headshotColored.be9db85e4b70c31c52e1.avif",
     "static/media/stPeteBrewingCompany.avif": "/static/media/stPeteBrewingCompany.c4b8aab88d04c2d2d4ba.avif",
     "static/media/KanitItalic800.woff2": "/static/media/KanitItalic800.c35cb2f51b749aa344db.woff2",
     "static/media/KanitItalic700.woff2": "/static/media/KanitItalic700.0e3fd636048779056a52.woff2",
@@ -29,12 +29,12 @@
     "static/media/KanitNormal100.woff2": "/static/media/KanitNormal100.66caf2e717edbb7f5ced.woff2",
     "static/media/leburcLogoLettering.avif": "/static/media/leburcLogoLettering.ff55f3fcc2d1ce6e5041.avif",
     "index.html": "/index.html",
-    "main.7f3d5f29.css.map": "/static/css/main.7f3d5f29.css.map",
-    "main.92b78e38.js.map": "/static/js/main.92b78e38.js.map",
+    "main.24568b6f.css.map": "/static/css/main.24568b6f.css.map",
+    "main.618a4779.js.map": "/static/js/main.618a4779.js.map",
     "787.913e7071.chunk.js.map": "/static/js/787.913e7071.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f3d5f29.css",
-    "static/js/main.92b78e38.js"
+    "static/css/main.24568b6f.css",
+    "static/js/main.618a4779.js"
   ]
 }
