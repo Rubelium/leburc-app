@@ -48,11 +48,12 @@ In the project directory, you can run:
 
 ### WIP
 
+- Run SEO/performance checkers.
+- Redo card design.
 - Setup promotional/label/collective section.
 - Setup track release section.
-- Setup modal for playlists.
-- Setup biography.
+- Setup biography text.
+- Setup photo gallery.
+- Fix biography tap target.
 - Split out body components.
-- Redo card design.
-- Run SEO/performance checker.
 - Code cleanup.

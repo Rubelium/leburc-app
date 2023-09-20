@@ -33,7 +33,7 @@ const AppMixCard = ({ headerText, subHeaderText, url, image, imageCreditText, im
         {imageCreditText && imageCreditUrl &&
           <Link
             className="text-[9px] pt-1"
-            href={imageCreditUrl}>Image Credits: {imageCreditText}
+            href={imageCreditUrl}>Photo by: {imageCreditText}
           </Link>
         }
       </CardBody>

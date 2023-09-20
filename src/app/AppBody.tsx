@@ -1,8 +1,8 @@
-import boomerangsDownUnderBar from "../images/boomerangsDownUnderBar.avif"
 import club201 from "../images/club201.avif"
-import headshot from "../images/headshot.avif"
+import headshotColored from "../images/headshotColored.avif"
 import odysseyBeach from "../images/odysseyBeach.avif"
 import stPeteBrewingCompany from "../images/stPeteBrewingCompany.avif"
+import saigonBlonde3 from "../images/saigonBlonde3.avif"
 import NotificationIcon from "../icons/NotificationIcon";
 import AppLatestMixCard from "./AppLatestMixCard";
 import MixCard from "./AppMixCard";
@@ -107,7 +107,7 @@ function AppBody() {
       <div className="flex items-center justify-center min-h-[25vh] flex-col md:flex-row bg-[#272727]">
         <div>
           <MixCard
-            headerText={"MIX PLAYLIST 1"}
+            headerText={"MIX PLAYLIST"}
             subHeaderText={"Minimal / Deep Tech Series"}
             url={"https://soundcloud.com/leburc/sets/minimal-deep-tech-mixes"}
             image={club201}
@@ -116,7 +116,7 @@ function AppBody() {
           />
           <div className="pt-1">
             <MixCard
-              headerText={"MIX PLAYLIST 2"}
+              headerText={"MIX PLAYLIST"}
               subHeaderText={"Melodic House / Techno Series"}
               url={"https://soundcloud.com/leburc/sets/melodic-house-techno-mixes"}
               image={odysseyBeach}
@@ -127,16 +127,16 @@ function AppBody() {
         </div>
         <div>
           <MixCard
-            headerText={"MIX PLAYLIST 3"}
+            headerText={"MIX PLAYLIST"}
             subHeaderText={"Afro House / Organic House Series"}
             url={"https://soundcloud.com/leburc/sets/afro-house-organic-house"}
-            image={boomerangsDownUnderBar}
-            imageCreditText="@sandorimusic"
-            imageCreditUrl="https://www.instagram.com/omf20xx/"
+            image={saigonBlonde3}
+            imageCreditText="@sookie_takes_photos"
+            imageCreditUrl="https://instagram.com/sookie_takes_photos?igshid=MzRlODBiNWFlZA=="
           />
           <div className="pt-1">
             <MixCard
-              headerText={"MIX PLAYLIST 4"}
+              headerText={"MIX PLAYLIST"}
               subHeaderText={"Miscellaneous Series"}
               url={"https://soundcloud.com/leburc/sets/other-mixes"}
               image={stPeteBrewingCompany}
@@ -147,7 +147,7 @@ function AppBody() {
         </div>
       </div>
       <div className="flex items-center justify-center min-h-[30vh] flex-col bg-gradient-to-b from-[#272727] to-[#0f0f0f]">
-        <div className="w-64 sm:w-80 pb-1">
+        <div className="w-[300px] sm:w-96 pb-1">
           <Accordion variant="shadow" showDivider={false}>
             <AccordionItem
               key="1"
@@ -161,16 +161,15 @@ function AppBody() {
               }
               startContent={
                 <Badge
-                  className="mt-4 z-10 mr-1"
+                  className="w-6 h-6 mt-4 z-10 mr-2"
                   content={"i"}
                   color="warning"
                   variant="solid">
                   <Avatar
-                    className="mt-3 mr-2"
+                    className="mt-3 mr-2 w-20 h-20"
                     isBordered
-                    size="lg"
                     color="default"
-                    src={headshot} />
+                    src={headshotColored} />
                 </Badge>
               }
             >
