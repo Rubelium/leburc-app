@@ -1,18 +1,16 @@
 import boomerangsDownUnderBar from "../images/boomerangsDownUnderBar.avif"
 import club201 from "../images/club201.avif"
+import headshot from "../images/headshot.avif"
 import odysseyBeach from "../images/odysseyBeach.avif"
 import stPeteBrewingCompany from "../images/stPeteBrewingCompany.avif"
 import NotificationIcon from "../icons/NotificationIcon";
 import AppLatestMixCard from "./AppLatestMixCard";
 import MixCard from "./AppMixCard";
 import { Button } from "@nextui-org/button";
-import { ClapSpinner } from "react-spinners-kit";
-import { Chip, Link } from "@nextui-org/react";
-import { useState } from "react";
+import { ImpulseSpinner } from "react-spinners-kit";
+import { Accordion, AccordionItem, Avatar, Badge, Chip, Link } from "@nextui-org/react";
 
 function AppBody() {
-  const [hideAlert, setHideAlert] = useState(false);
-
   return (
     <div className="font-kanit">
       <div className="pt-8 bg-[#0f0f0f] text-white">
@@ -21,16 +19,85 @@ function AppBody() {
       </div>
       <div className="flex-col pt-16  bg-[#0f0f0f] text-white">
         <p className="text-xl">Events</p>
-        <p className="pt-1 font-thin line-through text-gray-400">16 MARCH 2023 - <Link isDisabled className="line-through" href="http://www.club-201.com/">Club 201</Link> - St. Petersburg, FL</p>
-        <p className="pt-2 font-thin line-through text-gray-400">13 MAY 2023 - <Link isDisabled className="line-through" href="https://www.stpetebeach.org/Facilities/Facility/Details/Upham-Beach-27">Upham Beach</Link> - St. Petersburg, FL</p>
-        <p className="pt-2 font-thin line-through text-gray-400">18 MAY 2023 - <Link isDisabled className="line-through" href="https://www.saigonblonde.com/">Saigon Blonde</Link> - St. Petersburg, FL</p>
-        <p className="pt-2 font-thin line-through text-gray-400">27 JULY 2023 - <Link isDisabled className="line-through" href="http://www.club-201.com/">Club 201</Link> - St. Petersburg, FL</p>
-        <p className="pt-2 font-thin line-through text-gray-400">7 SEP 2023 - <Link isDisabled className="line-through" href="https://www.saigonblonde.com/">Saigon Blonde</Link> - St. Petersburg, FL</p>
-        <p className="pt-2 font-thin line-through text-gray-400">16 SEP 2023 - <Link isDisabled className="line-through" href="https://www.facebook.com/districtsaintpete/">District Lounge</Link> - St. Petersburg, FL</p>
-        <p className="pt-2 font-thin">29 OCT 2023 - <Link showAnchorIcon className="font-extralight hover:underline" isDisabled href="">TBA</Link> - St. Petersburg, FL</p>
+        <p className="pt-1 font-thin line-through text-gray-400">
+          <span>16 MARCH 2023 - </span>
+          <Link
+            isDisabled
+            className="line-through"
+            href="http://www.club-201.com/">
+            Club 201
+          </Link>
+          <span> - St. Petersburg, FL</span>
+        </p>
+        <p
+          className="pt-2 font-thin line-through text-gray-400">
+          <span>13 MAY 2023 - </span>
+          <Link
+            isDisabled
+            className="line-through"
+            href="https://www.stpetebeach.org/Facilities/Facility/Details/Upham-Beach-27">
+            Upham Beach
+          </Link>
+          <span> - St. Petersburg, FL</span>
+        </p>
+        <p className="pt-2 font-thin line-through text-gray-400">
+          <span>18 MAY 2023 - </span>
+          <Link
+            isDisabled
+            className="line-through"
+            href="https://www.saigonblonde.com/">
+            Saigon Blonde</Link>
+          <span> - St. Petersburg, FL</span>
+        </p>
+        <p className="pt-2 font-thin line-through text-gray-400">
+          <span>27 JULY 2023 - </span>
+          <Link
+            isDisabled
+            className="line-through"
+            href="http://www.club-201.com/">
+            Club 201</Link>
+          <span> - St. Petersburg, FL</span>
+        </p>
+        <p className="pt-2 font-thin line-through text-gray-400">
+          <span>7 SEP 2023 - </span>
+          <Link
+            isDisabled
+            className="line-through"
+            href="https://www.saigonblonde.com/">
+            Saigon Blonde
+          </Link>
+          <span> - St. Petersburg, FL</span>
+        </p>
+        <p className="pt-2 font-thin line-through text-gray-400">
+          <span>16 SEP 2023 - </span>
+          <Link
+            isDisabled
+            className="line-through"
+            href="https://www.facebook.com/districtsaintpete/">
+            District Lounge
+          </Link>
+          <span> - St. Petersburg, FL</span>
+        </p>
+        <p className="pt-2 font-thin">
+          <span>29 OCT 2023 - </span>
+          <Link
+            showAnchorIcon
+            className="font-extralight hover:underline"
+            isDisabled
+            href="">
+            TBA
+          </Link>
+          <span> - St. Petersburg, FL</span>
+        </p>
       </div>
       <div className="flex items-center justify-center min-h-[25vh] bg-gradient-to-b from-[#0f0f0f] to-[#1b1b1b] text-black">
-        <Button radius="full" size="lg" color="success" variant="shadow" className="h-10 w-56 hover:text-white" onPress={() => window.location.href = "https://soundcloud.com/leburc"}>
+        <Button
+          radius="full"
+          size="lg"
+          color="success"
+          variant="shadow"
+          className="h-10 w-56 hover:text-white"
+          onPress={() => window.location.href = "https://soundcloud.com/leburc"}>
           LISTEN NOW
         </Button>
       </div>
@@ -79,19 +146,49 @@ function AppBody() {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center min-h-[25vh] flex-col bg-gradient-to-b from-[#272727] to-[#0f0f0f]">
-        <ClapSpinner size={30} color="#00ff89" loading={true} />
-        <div>
-          <Chip
-            className={`${hideAlert ? "hidden" : ""} mt-4`}
-            startContent={<NotificationIcon size={18} />}
-            variant="flat"
-            color="success"
-            size="sm"
-            onClose={() => setHideAlert(true)}
-          >
-            Website Under Construction
-          </Chip>
+      <div className="flex items-center justify-center min-h-[30vh] flex-col bg-gradient-to-b from-[#272727] to-[#0f0f0f]">
+        <div className="w-64 sm:w-80 pb-1">
+          <Accordion variant="shadow" showDivider={false}>
+            <AccordionItem
+              key="1"
+              className="text-white items-center flex-col"
+              aria-label="Biography Accordion"
+              title="Biography"
+              subtitle={
+                <p className="flex text-sm font-thin">
+                  Press to expand
+                </p>
+              }
+              startContent={
+                <Badge
+                  className="mt-4 z-10 mr-1"
+                  content={"i"}
+                  color="warning"
+                  variant="solid">
+                  <Avatar
+                    className="mt-3 mr-2"
+                    isBordered
+                    size="lg"
+                    color="default"
+                    src={headshot} />
+                </Badge>
+              }
+            >
+              <div className="pb-4">
+                <Chip
+                  startContent={<NotificationIcon size={18} />}
+                  variant="flat"
+                  color="success"
+                  size="sm"
+                >
+                  <p className="pr-1">Under Construction . . .</p>
+                </Chip>
+              </div>
+              <div className="inline-flex">
+                <ImpulseSpinner radius="md" loading={true} />
+              </div>
+            </AccordionItem>
+          </Accordion>
         </div>
       </div>
     </div>

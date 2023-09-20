@@ -3,7 +3,6 @@ function SpotifyPlayerEmbed() {
     <iframe
       title="Spotify Player Embed"
       className="z-10 max-w-2xl"
-      style={{ borderRadius: "12px" }}
       width="37%"
       height="200"
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
