@@ -147,7 +147,7 @@ function AppBody() {
         </div>
       </div>
       <div className="flex items-center justify-center min-h-[30vh] flex-col bg-gradient-to-b from-[#272727] to-[#0f0f0f]">
-        <div className="w-[300px] sm:w-96 pb-1">
+        <div className="w-[300px] sm:w-96 pb-1 z-10">
           <Accordion variant="shadow" showDivider={false}>
             <AccordionItem
               key="1"
