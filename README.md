@@ -52,5 +52,7 @@ In the project directory, you can run:
 - Setup track release section.
 - Setup modal for playlists.
 - Setup biography.
+- Split out body components.
+- Redo card design.
 - Run SEO/performance checker.
 - Code cleanup.
