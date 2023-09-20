@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.24568b6f.css",
-    "main.js": "/static/js/main.618a4779.js",
+    "main.js": "/static/js/main.ef56147d.js",
     "static/js/787.913e7071.chunk.js": "/static/js/787.913e7071.chunk.js",
     "static/media/saigonBlonde3.avif": "/static/media/saigonBlonde3.dacd0cc14c8e27e18a01.avif",
     "static/media/leburcLogoBorder.avif": "/static/media/leburcLogoBorder.1fce75db8f09469005f8.avif",
@@ -30,11 +30,11 @@
     "static/media/leburcLogoLettering.avif": "/static/media/leburcLogoLettering.ff55f3fcc2d1ce6e5041.avif",
     "index.html": "/index.html",
     "main.24568b6f.css.map": "/static/css/main.24568b6f.css.map",
-    "main.618a4779.js.map": "/static/js/main.618a4779.js.map",
+    "main.ef56147d.js.map": "/static/js/main.ef56147d.js.map",
     "787.913e7071.chunk.js.map": "/static/js/787.913e7071.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24568b6f.css",
-    "static/js/main.618a4779.js"
+    "static/js/main.ef56147d.js"
   ]
 }
