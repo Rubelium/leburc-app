@@ -1,7 +1,5 @@
 import { Link } from "@nextui-org/react";
 import { SocialIcon } from "react-social-icons";
-import { BiMailSend, BiUser } from "react-icons/bi";
-
 
 function AppFooter() {
   return (
@@ -27,25 +25,25 @@ function AppFooter() {
       <div className="flex pt-10 pb-4">
         <div>
           <div className="text-xs font-bold">
-            DJ - Aspiring Producer - Developer
+            DJ / Aspiring Producer / Developer
           </div>
           <div className="text-xs pt-3 font-medium">
             <Link
               className="pt-0.5 pb-0.5 hover:underline font-thin"
               href="mailto:dj.leburc@gmail.com">
-              <BiMailSend size={20} className="mr-1 mt-0.5" /> dj.leburc@gmail.com
+              dj.leburc@gmail.com
             </Link>
           </div>
           <div className="text-xs pt-2 font-medium">
             <Link
               className="pt-0.5 pb-0.5 hover:underline font-thin"
               href="https://www.instagram.com/leburc.music/">
-              <BiUser size={20} className="mr-1" /> @leburc.music
+              @leburc.music
             </Link>
           </div>
         </div>
       </div>
-      <div className="text-xs text-grey pt-8">&copy; LEBURC 2023</div>
+      <div className="text-xs text-gray-400 pt-8">&copy; LEBURC 2023</div>
     </footer>
   );
 }
