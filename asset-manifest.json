@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.b616b91d.css",
-    "main.js": "/static/js/main.bb3d2013.js",
+    "main.js": "/static/js/main.14f58334.js",
     "static/js/787.913e7071.chunk.js": "/static/js/787.913e7071.chunk.js",
+    "static/media/boomerangsDownUnderBar.avif": "/static/media/boomerangsDownUnderBar.6ab068a62c7e5acb74de.avif",
+    "static/media/saigonBlonde3.avif": "/static/media/saigonBlonde3.dacd0cc14c8e27e18a01.avif",
     "static/media/leburcLogoBorder.avif": "/static/media/leburcLogoBorder.1fce75db8f09469005f8.avif",
     "static/media/saigonBlonde6.avif": "/static/media/saigonBlonde6.c01bab0c97bdb062aebd.avif",
     "static/media/club201.avif": "/static/media/club201.e2d8dc829d30a6cfd356.avif",
@@ -30,11 +32,11 @@
     "static/media/leburcLogoLettering.avif": "/static/media/leburcLogoLettering.ff55f3fcc2d1ce6e5041.avif",
     "index.html": "/index.html",
     "main.b616b91d.css.map": "/static/css/main.b616b91d.css.map",
-    "main.bb3d2013.js.map": "/static/js/main.bb3d2013.js.map",
+    "main.14f58334.js.map": "/static/js/main.14f58334.js.map",
     "787.913e7071.chunk.js.map": "/static/js/787.913e7071.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b616b91d.css",
-    "static/js/main.bb3d2013.js"
+    "static/js/main.14f58334.js"
   ]
 }
