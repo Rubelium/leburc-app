@@ -56,3 +56,4 @@ In the project directory, you can run:
 - Setup photo gallery.
 - Split out body components.
 - Code cleanup.
+- Add branch protection.
