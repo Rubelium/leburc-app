@@ -1,7 +1,7 @@
 import club201 from "../images/club201.avif"
 import odysseyBeach from "../images/odysseyBeach.avif"
 import stPeteBrewingCompany from "../images/stPeteBrewingCompany.avif"
-import saigonBlonde3 from "../images/saigonBlonde3.avif"
+import saigonBlonde6 from "../images/saigonBlonde6.avif"
 import AppPlaylistCard from "./AppPlaylistCard";
 
 function AppPlaylists() {
@@ -20,7 +20,7 @@ function AppPlaylists() {
             headerText={"MIX PLAYLIST"}
             subHeaderText={"Afro House / Organic House Series"}
             url={"https://soundcloud.com/leburc/sets/afro-house-organic-house"}
-            image={saigonBlonde3}
+            image={saigonBlonde6}
             imageCreditText="@sookie_takes_photos"
             imageCreditUrl="https://instagram.com/sookie_takes_photos?igshid=MzRlODBiNWFlZA==" />
         </div>
