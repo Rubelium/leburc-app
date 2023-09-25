@@ -20,21 +20,21 @@ function AppPlaylists() {
         <div className="pt-1">
           <AppPlaylistCard
             headerText={"MIX PLAYLIST"}
-            subHeaderText={"Afro House / Organic House Series"}
-            url={"https://soundcloud.com/leburc/sets/afro-house-organic-house"}
+            subHeaderText={"Melodic House / Techno Series"}
+            url={"https://soundcloud.com/leburc/sets/melodic-house-techno-mixes"}
             image={saigonBlonde6}
-            imageCreditText="@sookie_takes_photos"
-            imageCreditUrl="https://instagram.com/sookie_takes_photos" />
+            imageCreditText="@omf20xx"
+            imageCreditUrl="https://www.instagram.com/sandorimusic/" />
         </div>
       </div>
       <div>
         <AppPlaylistCard
           headerText={"MIX PLAYLIST"}
-          subHeaderText={"Melodic House / Techno Series"}
-          url={"https://soundcloud.com/leburc/sets/melodic-house-techno-mixes"}
+          subHeaderText={"Afro House / Organic House Series"}
+          url={"https://soundcloud.com/leburc/sets/afro-house-organic-house"}
           image={odysseyBeach}
-          imageCreditText="@omf20xx"
-          imageCreditUrl="https://www.instagram.com/sandorimusic/" />
+          imageCreditText="@sookie_takes_photos"
+          imageCreditUrl="https://instagram.com/sookie_takes_photos" />
         <div className="pt-1">
           <AppPlaylistCard
             headerText={"MIX PLAYLIST"}

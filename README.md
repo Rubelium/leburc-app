@@ -55,4 +55,3 @@ In the project directory, you can run:
 - Setup biography text.
 - Setup photo gallery.
 - Code cleanup.
-- Fix boomerangs photo.
