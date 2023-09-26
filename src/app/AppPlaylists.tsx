@@ -23,8 +23,8 @@ function AppPlaylists() {
             subHeaderText={"Melodic House / Techno Series"}
             url={"https://soundcloud.com/leburc/sets/melodic-house-techno-mixes"}
             image={saigonBlonde6}
-            imageCreditText="@omf20xx"
-            imageCreditUrl="https://www.instagram.com/sandorimusic/" />
+            imageCreditText="@sookie_takes_photos"
+            imageCreditUrl="https://instagram.com/sookie_takes_photos" />
         </div>
       </div>
       <div>
@@ -33,8 +33,8 @@ function AppPlaylists() {
           subHeaderText={"Afro House / Organic House Series"}
           url={"https://soundcloud.com/leburc/sets/afro-house-organic-house"}
           image={odysseyBeach}
-          imageCreditText="@sookie_takes_photos"
-          imageCreditUrl="https://instagram.com/sookie_takes_photos" />
+          imageCreditText="@omf20xx"
+          imageCreditUrl="https://www.instagram.com/omf20xx/" />
         <div className="pt-1">
           <AppPlaylistCard
             headerText={"MIX PLAYLIST"}
