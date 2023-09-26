@@ -56,6 +56,3 @@ In the project directory, you can run:
 - Setup track release section.
 - Setup biography text.
 - Setup photo gallery.
-- Split out body components.
-- Code cleanup.
-- Add branch protection.

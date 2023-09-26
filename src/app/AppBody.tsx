@@ -1,8 +1,8 @@
 import AppLatestMixCard from "./AppLatestMixCard";
-import { Button } from "@nextui-org/button";
 import AppAccordion from "./AppAccordion"
 import AppPlaylists from "./AppPlaylists";
 import AppEventsList from "./AppEventsList";
+import { Button } from "@nextui-org/button";
 
 function AppBody() {
   return (
