@@ -3,6 +3,8 @@
 - Bootstrapped with [Create React App (TypeScript)](https://create-react-app.dev/docs/adding-typescript/).
 - Uses [npm](https://www.npmjs.com/) as the package manager.
 - Uses the latest [Node.js](https://nodejs.org/en/) LTS version.
+- Uses the latest [NextUI](https://nextui.org/) version.
+- Uses the latest [Tailwind CSS](https://tailwindcss.com/) version.
 
 ## Available Scripts
 
@@ -46,7 +48,7 @@ In the project directory, you can run:
 - [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
 - [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 
-### WIP
+### Work in Progress
 
 - Run SEO/performance checkers.
 - Redo card design.
