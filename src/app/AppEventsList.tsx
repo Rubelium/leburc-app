@@ -71,14 +71,14 @@ function AppEventsList() {
         </Link>
         <span> - St. Petersburg, FL</span>
       </p>
-      <p className="pt-2 font-thin">
+      <p className="pt-2 font-thin pb-6">
         <span>29 OCT 2023 - </span>
         <Link
           className="font-extralight hover:underline flex-col"
           href="https://www.facebook.com/districtsaintpete/"
         >
-          District Lounge
-          <span className="text-xs">(Block Party)</span>
+          <span className="underline">District Lounge</span>
+          <span className="text-xs absolute pt-6">(Block Party on Central Avenue)</span>
         </Link>
         <span> - St. Petersburg, FL</span>
       </p>
