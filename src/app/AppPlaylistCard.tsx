@@ -33,7 +33,9 @@ const AppPlaylistCard = ({ headerText, subHeaderText, url, image, imageCreditTex
         {imageCreditText && imageCreditUrl &&
           <Link
             className="text-[9px] pt-1"
-            href={imageCreditUrl}>Photo by: {imageCreditText}
+            href={imageCreditUrl}
+          >
+            Photo by: {imageCreditText}
           </Link>
         }
       </CardBody>

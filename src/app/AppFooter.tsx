@@ -8,19 +8,23 @@ function AppFooter() {
         <SocialIcon
           className="App-social-icon mr-[10px] ml-[10px] h-[60px] w-[60px]"
           url="https://soundcloud.com/leburc"
-          bgColor="#00ff89" />
+          bgColor="#00ff89"
+        />
         <SocialIcon
           className="App-social-icon mr-[10px] ml-[10px] h-[60px] w-[60px]"
           url="https://www.instagram.com/leburc.music/"
-          bgColor="#00ff89" />
+          bgColor="#00ff89"
+        />
         <SocialIcon
           className="App-social-icon mr-[10px] ml-[10px] h-[60px] w-[60px]"
           url="https://github.com/Rubelium/leburc-app"
-          bgColor="#00ff89" />
+          bgColor="#00ff89"
+        />
         <SocialIcon
           className="App-social-icon mr-[10px] ml-[10px] h-[60px] w-[60px]"
           url="mailto:dj.leburc@gmail.com"
-          bgColor="#00ff89" />
+          bgColor="#00ff89"
+        />
       </div>
       <div className="flex pt-10 pb-4">
         <div>
@@ -43,7 +47,7 @@ function AppFooter() {
           </div>
         </div>
       </div>
-      <div className="text-xs text-white font-thin pt-6">&copy; LEBURC 2023 • Last updated: 9/25/2023</div>
+      <div className="text-xs text-white font-thin pt-6">&copy; LEBURC 2023 • Last updated: 10/11/2023</div>
     </footer>
   );
 }

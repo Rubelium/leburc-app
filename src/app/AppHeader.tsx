@@ -10,14 +10,16 @@ function AppHeader() {
           width={450}
           height={450}
           className="App-leburc-logo-border max-h-[450px] bg-[#0f0f0f] relative"
-          alt="Loading..." />
+          alt="Loading..."
+        />
       </div>
       <img
         src={logoLettering}
         width={213}
         height={45}
         className="max-h-[35px] z-10 absolute"
-        alt="Loading..." />
+        alt="Loading..."
+      />
     </header>
   );
 }

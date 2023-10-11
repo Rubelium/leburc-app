@@ -21,7 +21,8 @@ function AppBody() {
           color="success"
           variant="shadow"
           className="h-10 w-56 hover:text-white"
-          onPress={() => window.location.href = "https://soundcloud.com/leburc"}>
+          onPress={() => window.location.href = "https://soundcloud.com/leburc"}
+        >
           LISTEN NOW
         </Button>
       </div>

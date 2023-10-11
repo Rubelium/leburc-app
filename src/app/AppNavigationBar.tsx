@@ -17,7 +17,8 @@ function AppNavigationBar() {
             width={128}
             height={21}
             className="App-leburc-logo-lettering-navbar h-[21px]"
-            alt="Loading..." />
+            alt="Loading..."
+          />
         </div>
       </NavbarBrand>
       <NavbarContent justify="end">
@@ -37,25 +38,29 @@ function AppNavigationBar() {
             <SocialIcon
               className="App-social-icon-navbar h-[40px] w-[40px]"
               url="https://soundcloud.com/leburc"
-              bgColor="#ffffff" />
+              bgColor="#ffffff"
+            />
           </NavbarItem>
           <NavbarItem>
             <SocialIcon
               className="App-social-icon-navbar h-[40px] w-[40px]"
               url="https://www.instagram.com/leburc.music/"
-              bgColor="#ffffff" />
+              bgColor="#ffffff"
+            />
           </NavbarItem>
           <NavbarItem>
             <SocialIcon
               className="App-social-icon-navbar h-[40px] w-[40px]"
               url="https://github.com/Rubelium/leburc-app"
-              bgColor="#ffffff" />
+              bgColor="#ffffff"
+            />
           </NavbarItem>
-          <NavbarItem >
+          <NavbarItem>
             <SocialIcon
               className="App-social-icon-navbar h-[40px] w-[40px]"
               url="mailto:dj.leburc@gmail.com"
-              bgColor="#ffffff" />
+              bgColor="#ffffff"
+            />
           </NavbarItem>
         </div>
         <NavbarMenuToggle className="sm:hidden" />
@@ -77,7 +82,8 @@ function AppNavigationBar() {
             <SocialIcon
               className="App-social-icon-navbar h-[40px] w-[40px]"
               network="soundcloud"
-              bgColor="#ffffff" />
+              bgColor="#ffffff"
+            />
             <span className="pl-2">SoundCloud</span>
           </Link>
         </NavbarMenuItem>
@@ -86,7 +92,8 @@ function AppNavigationBar() {
             <SocialIcon
               className="App-social-icon-navbar h-[40px] w-[40px]"
               network="instagram"
-              bgColor="#ffffff" />
+              bgColor="#ffffff"
+            />
             <span className="pl-2">Instagram</span>
           </Link>
         </NavbarMenuItem>
@@ -95,7 +102,8 @@ function AppNavigationBar() {
             <SocialIcon
               className="App-social-icon-navbar h-[40px] w-[40px]"
               network="github"
-              bgColor="#ffffff" />
+              bgColor="#ffffff"
+            />
             <span className="pl-2">GitHub</span>
           </Link>
         </NavbarMenuItem>
@@ -104,12 +112,13 @@ function AppNavigationBar() {
             <SocialIcon
               className="App-social-icon-navbar h-[40px] w-[40px]"
               network="email"
-              bgColor="#ffffff" />
+              bgColor="#ffffff"
+            />
             <span className="pl-2">Email</span>
           </Link>
         </NavbarMenuItem>
       </NavbarMenu>
-    </Navbar >
+    </Navbar>
   );
 }
 

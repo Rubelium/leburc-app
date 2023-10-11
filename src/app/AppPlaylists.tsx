@@ -16,7 +16,8 @@ function AppPlaylists() {
           url={"https://soundcloud.com/leburc/sets/minimal-deep-tech-mixes"}
           image={club201}
           imageCreditText="@sookie_takes_photos"
-          imageCreditUrl="https://instagram.com/sookie_takes_photos" />
+          imageCreditUrl="https://instagram.com/sookie_takes_photos"
+        />
         <div className="pt-1">
           <AppPlaylistCard
             headerText={"MIX PLAYLIST"}
@@ -24,7 +25,8 @@ function AppPlaylists() {
             url={"https://soundcloud.com/leburc/sets/melodic-house-techno-mixes"}
             image={saigonBlonde6}
             imageCreditText="@sookie_takes_photos"
-            imageCreditUrl="https://instagram.com/sookie_takes_photos" />
+            imageCreditUrl="https://instagram.com/sookie_takes_photos"
+          />
         </div>
       </div>
       <div>
@@ -34,7 +36,8 @@ function AppPlaylists() {
           url={"https://soundcloud.com/leburc/sets/afro-house-organic-house"}
           image={odysseyBeach}
           imageCreditText="@omf20xx"
-          imageCreditUrl="https://www.instagram.com/omf20xx/" />
+          imageCreditUrl="https://www.instagram.com/omf20xx/"
+        />
         <div className="pt-1">
           <AppPlaylistCard
             headerText={"MIX PLAYLIST"}
@@ -42,7 +45,8 @@ function AppPlaylists() {
             url={"https://soundcloud.com/leburc/sets/mixes-indie-dance"}
             image={stPeteBrewingCompany}
             imageCreditText="@f2t4"
-            imageCreditUrl="https://www.instagram.com/f2t4/" />
+            imageCreditUrl="https://www.instagram.com/f2t4/"
+          />
         </div>
       </div>
       <div>

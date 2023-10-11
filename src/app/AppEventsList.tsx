@@ -3,12 +3,14 @@ import { Link } from "@nextui-org/react";
 function AppEventsList() {
   return (
     <>
-      <p className="text-xl">Events</p><p className="pt-1 font-thin line-through text-gray-400">
+      <p className="text-xl">Events</p>
+      <p className="pt-1 font-thin line-through text-gray-400">
         <span>16 MARCH 2023 - </span>
         <Link
           isDisabled
           className="line-through"
-          href="http://www.club-201.com/">
+          href="http://www.club-201.com/"
+        >
           Club 201
         </Link>
         <span> - St. Petersburg, FL</span>
@@ -19,7 +21,8 @@ function AppEventsList() {
         <Link
           isDisabled
           className="line-through"
-          href="https://www.stpetebeach.org/Facilities/Facility/Details/Upham-Beach-27">
+          href="https://www.stpetebeach.org/Facilities/Facility/Details/Upham-Beach-27"
+        >
           Upham Beach
         </Link>
         <span> - St. Petersburg, FL</span>
@@ -29,8 +32,10 @@ function AppEventsList() {
         <Link
           isDisabled
           className="line-through"
-          href="https://www.saigonblonde.com/">
-          Saigon Blonde</Link>
+          href="https://www.saigonblonde.com/"
+        >
+          Saigon Blonde
+        </Link>
         <span> - St. Petersburg, FL</span>
       </p>
       <p className="pt-2 font-thin line-through text-gray-400">
@@ -38,8 +43,10 @@ function AppEventsList() {
         <Link
           isDisabled
           className="line-through"
-          href="http://www.club-201.com/">
-          Club 201</Link>
+          href="http://www.club-201.com/"
+        >
+          Club 201
+        </Link>
         <span> - St. Petersburg, FL</span>
       </p>
       <p className="pt-2 font-thin line-through text-gray-400">
@@ -47,7 +54,8 @@ function AppEventsList() {
         <Link
           isDisabled
           className="line-through"
-          href="https://www.saigonblonde.com/">
+          href="https://www.saigonblonde.com/"
+        >
           Saigon Blonde
         </Link>
         <span> - St. Petersburg, FL</span>
@@ -57,7 +65,8 @@ function AppEventsList() {
         <Link
           isDisabled
           className="line-through"
-          href="https://www.facebook.com/districtsaintpete/">
+          href="https://www.facebook.com/districtsaintpete/"
+        >
           District Lounge
         </Link>
         <span> - St. Petersburg, FL</span>
@@ -65,11 +74,11 @@ function AppEventsList() {
       <p className="pt-2 font-thin">
         <span>29 OCT 2023 - </span>
         <Link
-          showAnchorIcon
-          className="font-extralight hover:underline"
-          isDisabled
-          href="">
-          TBA
+          className="font-extralight hover:underline flex-col"
+          href="https://www.facebook.com/districtsaintpete/"
+        >
+          District Lounge
+          <span className="text-xs">(Block Party)</span>
         </Link>
         <span> - St. Petersburg, FL</span>
       </p>

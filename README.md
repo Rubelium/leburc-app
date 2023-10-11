@@ -57,3 +57,4 @@ In the project directory, you can run:
 - Setup track release section.
 - Setup biography text.
 - Setup photo gallery.
+- Fix anchor in events list.
