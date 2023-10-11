@@ -82,7 +82,7 @@ function AppEventsList() {
             District Lounge
           </Link>
           <span> - St. Petersburg, FL</span>
-          <p className="text-xs">(Block Party on Central Avenue)</p>
+          <p className="text-xs min-[460px]:text-sm">(Block Party on Central Avenue)</p>
         </p>
       </div>
     </>
