@@ -8,10 +8,10 @@ function AppBody() {
   return (
     <div className="font-kanit">
       <div className="pt-8 bg-[#0f0f0f] text-white">
-        <h1 className="text-2xl">DJ / Aspiring Producer</h1>
+        <h1 className="text-2xl min-[460px]:text-3xl">DJ / Aspiring Producer</h1>
         <h2 className="font-thin">Based in Tampa, FL, USA</h2>
       </div>
-      <div className="flex-col pt-16  bg-[#0f0f0f] text-white">
+      <div className="flex-col pt-16 bg-[#0f0f0f] text-white">
         <AppEventsList />
       </div>
       <div className="flex items-center justify-center min-h-[25vh] bg-gradient-to-b from-[#0f0f0f] to-[#1b1b1b] text-black">
