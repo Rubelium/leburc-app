@@ -8,7 +8,7 @@ function AppLatestMixCard() {
       fullWidth
     >
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-        <p className="text-xl uppercase font-bold">
+        <p className="text-xl uppercase font-semibold">
           LATEST MIX
         </p>
       </CardHeader>
