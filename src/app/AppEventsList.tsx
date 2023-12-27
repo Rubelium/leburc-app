@@ -72,17 +72,20 @@ function AppEventsList() {
           </Link>
           <span> - St. Petersburg, FL</span>
         </p>
-        <p className="pt-2 font-thin">
+        <p className="pt-2 font-thin line-through text-gray-400">
           <span>29 OCT 2023 - </span>
           <Link
-            className="font-extralight hover:underline"
+            isDisabled
+            className="font-thin hover:underline line-through"
             href="https://www.facebook.com/districtsaintpete/"
-            showAnchorIcon
           >
             District Lounge
           </Link>
           <span> - St. Petersburg, FL</span>
-          <p className="text-xs min-[460px]:text-sm">(Block Party on Central Avenue)</p>
+          {/* <p className="text-xs min-[460px]:text-sm line-through">(Block Party on Central Avenue)</p> */}
+        </p>
+        <p className="pt-2 font-thin text-sm italic">
+          <span>To be determined...</span>
         </p>
       </div>
     </>
