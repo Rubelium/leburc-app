@@ -20,7 +20,7 @@ function AppBody() {
           size="lg"
           color="success"
           variant="shadow"
-          className="h-10 w-56 hover:text-white"
+          className="h-10 w-56 hover:bg-opacity-80"
           onPress={() => window.location.href = "https://soundcloud.com/leburc"}
         >
           LISTEN NOW

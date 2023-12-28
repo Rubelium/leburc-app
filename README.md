@@ -51,11 +51,8 @@ In the project directory, you can run:
 ### Work in Progress
 
 - Run SEO/performance checkers.
-- Redo audio player.
-- Redo card design.
 - Setup promotional/label/collective section.
 - Setup track release section.
 - Setup biography text.
 - Setup photo gallery.
 - Setup highlight for earliest upcoming event.
-- Fix anchor in events list.

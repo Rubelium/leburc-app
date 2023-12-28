@@ -9,7 +9,7 @@ function AppHeader() {
           src={logoBorder}
           width={450}
           height={450}
-          className="App-leburc-logo-border max-h-[450px] bg-[#0f0f0f] relative"
+          className="App-leburc-logo-border relative max-h-[450px] bg-[#0f0f0f]"
           alt="Loading..."
         />
       </div>

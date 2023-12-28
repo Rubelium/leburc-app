@@ -12,7 +12,7 @@ interface AppMixCardProps {
 const AppPlaylistCard = ({ headerText, subHeaderText, url, image, imageCreditText, imageCreditUrl }: AppMixCardProps) => {
   return (
     <Card
-      className="py-2 m-8 border-2 border-green-500 rounded-2xl bg-[#ffffff] text-black shadow-xl shadow-green-500"
+      className="py-2 m-8 text-black shadow-lg rounded-2xl border-2 border-green-500 hover:border-white bg-[#ffffff] hover:bg-gray-200 shadow-green-500 hover:shadow-white"
       onPress={() => window.location.href = url}
       isPressable
     >

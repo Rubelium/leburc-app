@@ -8,11 +8,11 @@ function AppAccordion() {
     <Accordion variant="shadow" showDivider={false}>
       <AccordionItem
         key="1"
-        className="text-white items-center flex-col"
+        className="text-white items-center flex-col group"
         aria-label="Biography Accordion"
         title="Biography"
         subtitle={
-          <p className="flex text-sm font-thin">
+          <p className="flex text-sm font-thin group-hover:text-[#f5a524]">
             Press to expand
           </p>
         }
