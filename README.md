@@ -2,9 +2,9 @@
 
 - Bootstrapped with [Create React App (TypeScript)](https://create-react-app.dev/docs/adding-typescript/).
 - Utilizes [npm](https://www.npmjs.com/) as the package manager.
-- Utilizes [Node.js](https://nodejs.org/en/) (LTS version) for the JavaScript runtime environment.
-- Utilizes [NextUI](https://nextui.org/) for the React UI library.
-- Utilizes [Tailwind CSS](https://tailwindcss.com/) for the CSS framework.
+- Utilizes [Node.js](https://nodejs.org/en/) (LTS version) as the JavaScript runtime environment.
+- Utilizes [NextUI](https://nextui.org/) as the React UI library.
+- Utilizes [Tailwind CSS](https://tailwindcss.com/) as the CSS framework.
 
 ## Available Scripts
 
