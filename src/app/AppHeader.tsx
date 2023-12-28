@@ -16,7 +16,7 @@ function AppHeader() {
       <img
         src={logoLettering}
         width={213}
-        height={45}
+        height={35}
         className="max-h-[35px] z-10 absolute"
         alt="Loading..."
       />
