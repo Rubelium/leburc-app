@@ -3,8 +3,8 @@ import { Link } from "@nextui-org/react";
 function AppEventsList() {
   return (
     <>
-      <p className="pb-1 text-xl min-[460px]:text-2xl">Events</p>
-      <div className="text-sm min-[460px]:text-lg">
+      <p className="pb-1 text-xl xs:text-2xl">Events</p>
+      <div className="text-sm xs:text-lg">
         <p className="pt-1 font-thin line-through text-gray-400">
           <span>16 MARCH 2023 - </span>
           <Link
@@ -82,7 +82,7 @@ function AppEventsList() {
             District Lounge
           </Link>
           <span> - St. Petersburg, FL</span>
-          {/* <p className="text-xs min-[460px]:text-sm line-through">(Block Party on Central Avenue)</p> */}
+          {/* <p className="text-xs xs:text-sm line-through">(Block Party on Central Avenue)</p> */}
         </p>
         <p className="pt-2 font-thin text-sm italic">
           <span>To be determined...</span>

@@ -19,6 +19,9 @@ export default {
         kanit: ['Kanit', 'sans-serif'],
       },
     },
+    screens: {
+      'xs': '460px',
+    },
   },
   plugins: [nextui],
   important: true,

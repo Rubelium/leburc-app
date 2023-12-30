@@ -7,17 +7,17 @@ function AppHeader() {
       <div className="flex overflow-hidden">
         <img
           src={logoBorder}
-          width={450}
-          height={450}
-          className="App-leburc-logo-border relative max-h-[450px] bg-[#0f0f0f]"
+          width={500}
+          height={500}
+          className="App-leburc-logo-border relative max-h-[500px] bg-[#0f0f0f]"
           alt="Loading..."
         />
       </div>
       <img
         src={logoLettering}
-        width={213}
+        width={200}
         height={35}
-        className="max-h-[35px] z-10 absolute"
+        className="z-10 absolute w-[150px] max-h-[25px] xs:max-h-[35px] xs:w-[200px]"
         alt="Loading..."
       />
     </header>
