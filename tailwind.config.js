@@ -18,9 +18,9 @@ export default {
       fontFamily: {
         kanit: ['Kanit', 'sans-serif'],
       },
-    },
-    screens: {
-      'xs': '460px',
+      screens: {
+        'xs': '460px',
+      },
     },
   },
   plugins: [nextui],
