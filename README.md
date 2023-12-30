@@ -50,7 +50,6 @@ In the project directory, you can run:
 
 ### Work in Progress
 
-- Run SEO/performance checkers.
 - Setup promotional/label/collective section.
 - Setup track release section.
 - Setup biography text.
