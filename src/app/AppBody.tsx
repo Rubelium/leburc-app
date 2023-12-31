@@ -8,7 +8,7 @@ function AppBody() {
   return (
     <div className="font-kanit">
       <div className="pt-8 bg-[#0f0f0f] text-white">
-        <h1 className="text-2xl xs:text-3xl">DJ / Aspiring Producer</h1>
+        <h1 className="text-2xl xs:text-3xl">DJ <span className="font-thin">/</span> Aspiring Producer</h1>
         <h2 className="font-thin">Based in Tampa, FL, USA</h2>
       </div>
       <div className="flex-col pt-16 bg-[#0f0f0f] text-white">
