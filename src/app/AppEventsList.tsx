@@ -5,8 +5,15 @@ function AppEventsList() {
     <>
       <p className="pb-1 text-xl xs:text-2xl">Upcoming Events</p>
       <div className="text-sm xs:text-lg pb-6">
-        <p className="pt-2 font-thin text-sm italic">
-          <span>To be determined...</span>
+        <p className="pt-2 font-thin text-gray-400">
+          <span>4 JANUARY 2024 - </span>
+          <Link
+            className="font-extralight hover:underline"
+            href="https://www.saigonblonde.com/"
+          >
+            Saigon Blonde
+          </Link>
+          <span> - St. Petersburg, FL</span>
         </p>
       </div>
       <p className="pb-1 text-xl xs:text-2xl">Previous Events</p>
