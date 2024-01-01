@@ -19,6 +19,16 @@ function AppEventsList() {
       <p className="pb-1 text-xl xs:text-2xl">Previous Events</p>
       <div className="text-sm xs:text-lg">
         <p className="pt-1 font-thin text-gray-400">
+          <span>22 DECEMBER 2022 - </span>
+          <Link
+            className="font-extralight hover:underline"
+            href="https://www.stpetebrewingcompany.com/"
+          >
+            The Nest
+          </Link>
+          <span> - St. Petersburg, FL</span>
+        </p>
+        <p className="pt-2 font-thin text-gray-400">
           <span>16 MARCH 2023 - </span>
           <Link
             className="font-extralight hover:underline"
