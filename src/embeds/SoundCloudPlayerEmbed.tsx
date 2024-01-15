@@ -7,7 +7,7 @@ function SoundCloudPlayerEmbed() {
       height="166"
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
       loading="lazy"
-      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1700394291&color=%23fa5300&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1717550361&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
     </iframe>
   );
 };
