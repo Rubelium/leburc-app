@@ -2,7 +2,7 @@ import logoLettering from "../images/leburcLogoLettering.avif"
 import NotificationIcon from "../icons/NotificationIcon";
 import { Chip, Link, Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuItem, NavbarMenuToggle } from "@nextui-org/react";
 import { SocialIcon } from "react-social-icons";
-import { ScrollToTop } from "../helpers/ScrollToTop";
+import { scrollToTop } from "../helpers/scrollToTop";
 import { useState } from "react";
 
 function AppNavigationBar() {
@@ -11,7 +11,7 @@ function AppNavigationBar() {
   return (
     <Navbar className="text-white bg-black">
       <NavbarBrand>
-        <div className="cursor-pointer" onClick={ScrollToTop}>
+        <div className="cursor-pointer" onClick={scrollToTop}>
           <img
             src={logoLettering}
             width={128}
