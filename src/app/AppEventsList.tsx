@@ -93,7 +93,7 @@ function AppEventsList() {
           <span> - St. Petersburg, FL</span>
           {/* <p className="text-xs xs:text-sm line-through">(Block Party on Central Avenue)</p> */}
         </p>
-        <p className="pt-1 font-thin text-gray-400">
+        <p className="pt-2 font-thin text-gray-400">
           <span>4 JANUARY 2024 - </span>
           <Link
             className="font-extralight hover:underline"
