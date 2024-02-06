@@ -29,7 +29,7 @@ function AppFooter() {
       <div className="flex pt-10 pb-4">
         <div>
           <div className="text-xs font-bold">
-            DJ / Aspiring Producer / Developer
+            DJ / Producer / Developer
           </div>
           <div className="text-xs pt-3 font-medium">
             <Link
@@ -47,7 +47,7 @@ function AppFooter() {
           </div>
         </div>
       </div>
-      <div className="text-xs text-white font-thin pt-6">&copy; LEBURC 2023 • Last updated: 01/16/2023</div>
+      <div className="text-xs text-white font-thin pt-6">&copy; LEBURC 2023 • Last updated: 02/6/2023</div>
     </footer>
   );
 }

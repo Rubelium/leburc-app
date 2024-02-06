@@ -5,8 +5,15 @@ function AppEventsList() {
     <>
       <p className="pb-1 text-xl xs:text-2xl">Upcoming Events</p>
       <div className="text-sm xs:text-lg pb-6">
-        <p className="pt-1 font-extralight text-gray-400">
-          <span>TBD</span>
+        <p className="pt-1 font-thin text-gray-400">
+          <span>8 FEB 2024 - </span>
+          <Link
+            className="font-extralight hover:underline"
+            href="https://www.facebook.com/club201stpete/"
+          >
+            Club 201
+          </Link>
+          <span> - St. Petersburg, FL</span>
         </p>
       </div>
       <p className="pb-1 text-xl xs:text-2xl">Previous Events</p>
@@ -25,7 +32,7 @@ function AppEventsList() {
           <span>16 MARCH 2023 - </span>
           <Link
             className="font-extralight hover:underline"
-            href="http://www.club-201.com/"
+            href="https://www.facebook.com/club201stpete/"
           >
             Club 201
           </Link>
@@ -56,7 +63,7 @@ function AppEventsList() {
           <span>27 JULY 2023 - </span>
           <Link
             className="font-extralight hover:underline"
-            href="http://www.club-201.com/"
+            href="https://www.facebook.com/club201stpete/"
           >
             Club 201
           </Link>
