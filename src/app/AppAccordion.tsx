@@ -41,9 +41,6 @@ function AppAccordion() {
           </Chip>
           <p className="pt-5 text-xs font-extralight italic">Currently working meticulously on my hopeful first release as a producer. Crafting minimal deep tech compositions.</p>
         </div>
-        <div className="inline-flex">
-          <ImpulseSpinner radius="md" loading={true} />
-        </div>
       </AccordionItem>
     </Accordion>
   );
