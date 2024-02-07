@@ -39,7 +39,7 @@ function AppAccordion() {
           >
             <p className="pr-1">Under Construction . . .</p>
           </Chip>
-          <p className="pt-5 text-xs font-extralight italic">Currently working meticulously on my hopeful first release as a producer. Crafting minimal deep tech compositions.</p>
+          <p className="pt-5 text-xs font-light">Currently working meticulously on my hopeful first release as a producer. Creating minimal deep tech compositions.</p>
         </div>
       </AccordionItem>
     </Accordion>
