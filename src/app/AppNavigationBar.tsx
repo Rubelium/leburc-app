@@ -1,4 +1,4 @@
-import logoLettering from "../images/leburcLogoLettering.avif"
+import logoLettering from "../images/leburcLogoLettering.png"
 import NotificationIcon from "../icons/NotificationIcon";
 import { Chip, Link, Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuItem, NavbarMenuToggle } from "@nextui-org/react";
 import { SocialIcon } from "react-social-icons";
@@ -16,7 +16,7 @@ function AppNavigationBar() {
             src={logoLettering}
             width={128}
             height={21}
-            className="App-leburc-logo-lettering-navbar h-[21px]"
+            className="App-leburc-logo-lettering-navbar"
             alt="Loading..."
           />
         </div>
