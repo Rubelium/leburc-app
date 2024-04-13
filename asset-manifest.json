@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.10f86504.css",
-    "main.js": "/static/js/main.b9c2b8cb.js",
+    "main.css": "/static/css/main.beee2641.css",
+    "main.js": "/static/js/main.7a6a6a9c.js",
     "static/js/787.301f935f.chunk.js": "/static/js/787.301f935f.chunk.js",
+    "static/media/leburcLogoLettering.png": "/static/media/leburcLogoLettering.6dd59f72b81f05c57505.png",
     "static/media/saigonBlonde3.avif": "/static/media/saigonBlonde3.dacd0cc14c8e27e18a01.avif",
     "static/media/boomerangsDownUnderBar.avif": "/static/media/boomerangsDownUnderBar.cae144714ef508f6dc45.avif",
-    "static/media/leburcLogoBorder.avif": "/static/media/leburcLogoBorder.1fce75db8f09469005f8.avif",
     "static/media/saigonBlonde6.avif": "/static/media/saigonBlonde6.c01bab0c97bdb062aebd.avif",
     "static/media/club201.avif": "/static/media/club201.e2d8dc829d30a6cfd356.avif",
     "static/media/odysseyBeach.avif": "/static/media/odysseyBeach.2352d2c01ce572297cbb.avif",
@@ -29,14 +29,13 @@
     "static/media/KanitNormal300.woff2": "/static/media/KanitNormal300.08e90876c22572b9ccaa.woff2",
     "static/media/KanitNormal200.woff2": "/static/media/KanitNormal200.cd5c54a9cf6c99686cd9.woff2",
     "static/media/KanitNormal100.woff2": "/static/media/KanitNormal100.66caf2e717edbb7f5ced.woff2",
-    "static/media/leburcLogoLettering.avif": "/static/media/leburcLogoLettering.ff55f3fcc2d1ce6e5041.avif",
     "index.html": "/index.html",
-    "main.10f86504.css.map": "/static/css/main.10f86504.css.map",
-    "main.b9c2b8cb.js.map": "/static/js/main.b9c2b8cb.js.map",
+    "main.beee2641.css.map": "/static/css/main.beee2641.css.map",
+    "main.7a6a6a9c.js.map": "/static/js/main.7a6a6a9c.js.map",
     "787.301f935f.chunk.js.map": "/static/js/787.301f935f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10f86504.css",
-    "static/js/main.b9c2b8cb.js"
+    "static/css/main.beee2641.css",
+    "static/js/main.7a6a6a9c.js"
   ]
 }
