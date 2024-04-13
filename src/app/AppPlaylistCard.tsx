@@ -18,7 +18,7 @@ const AppPlaylistCard = ({ headerText, subHeaderText, url, image, imageCreditTex
     >
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
         <p className="text-xl uppercase font-semibold">{headerText}
-          <Link showAnchorIcon isDisabled></Link>
+          <Link isDisabled></Link>
         </p>
         <p className="text-sm">{subHeaderText}</p>
       </CardHeader>

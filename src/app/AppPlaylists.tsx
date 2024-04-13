@@ -12,7 +12,7 @@ function AppPlaylists() {
       <div>
         <AppPlaylistCard
           headerText={"MIX PLAYLIST"}
-          subHeaderText={"Minimal / Deep Tech Series"}
+          subHeaderText={"Minimal / Deep Tech"}
           url={"https://soundcloud.com/leburc/sets/minimal-deep-tech-mixes"}
           image={club201}
           imageCreditText="@sookie_takes_photos"
@@ -21,7 +21,7 @@ function AppPlaylists() {
         <div className="pt-1">
           <AppPlaylistCard
             headerText={"MIX PLAYLIST"}
-            subHeaderText={"Melodic House / Techno Series"}
+            subHeaderText={"Melodic House / Techno"}
             url={"https://soundcloud.com/leburc/sets/melodic-house-techno-mixes"}
             image={saigonBlonde6}
             imageCreditText="@sookie_takes_photos"
@@ -32,7 +32,7 @@ function AppPlaylists() {
       <div>
         <AppPlaylistCard
           headerText={"MIX PLAYLIST"}
-          subHeaderText={"Afro House / Organic House Series"}
+          subHeaderText={"Afro House / Organic House"}
           url={"https://soundcloud.com/leburc/sets/afro-house-organic-house"}
           image={odysseyBeach}
           imageCreditText="@omf20xx"
@@ -41,7 +41,7 @@ function AppPlaylists() {
         <div className="pt-1">
           <AppPlaylistCard
             headerText={"MIX PLAYLIST"}
-            subHeaderText={"Indie Dance Series"}
+            subHeaderText={"Indie Dance"}
             url={"https://soundcloud.com/leburc/sets/mixes-indie-dance"}
             image={stPeteBrewingCompany}
             imageCreditText="@f2t4"
@@ -52,7 +52,7 @@ function AppPlaylists() {
       <div>
         <AppPlaylistCard
           headerText={"MIX PLAYLIST"}
-          subHeaderText={"Deep House / Progressive House Series"}
+          subHeaderText={"Deep House / Progressive House"}
           url={"https://soundcloud.com/leburc/sets/mixes-deep-house-progressive"}
           image={saigonBlonde3}
           imageCreditText="@sookie_takes_photos"
@@ -61,7 +61,7 @@ function AppPlaylists() {
         <div className="pt-1">
           <AppPlaylistCard
             headerText={"MIX PLAYLIST"}
-            subHeaderText={"Miscellaneous Series"}
+            subHeaderText={"Miscellaneous"}
             url={"https://soundcloud.com/leburc/sets/other-mixes"}
             image={boomerangsDownUnderBar}
             imageCreditText="@sandorimusic"
