@@ -2,6 +2,7 @@ import AppLatestMixCard from "./AppLatestMixCard";
 import AppAccordion from "./AppAccordion"
 import AppPlaylists from "./AppPlaylists";
 import AppEventsList from "./AppEventsList";
+import AppMyTracksCard from "./AppMyTracksCard";
 import { Button } from "@nextui-org/button";
 
 function AppBody() {
@@ -28,6 +29,9 @@ function AppBody() {
       </div>
       <div className="flex items-center justify-center min-h-[25vh] bg-gradient-to-b from-[#1b1b1b] to-[#272727] text-white text-2xl">
         <AppLatestMixCard />
+      </div>
+      <div className="flex items-center justify-center min-h-[25vh] bg-gradient-to-b bg-[#272727] text-white text-2xl">
+        <AppMyTracksCard />
       </div>
       <div className="flex items-center justify-center min-h-[25vh] flex-col md:flex-row bg-[#272727]">
         <AppPlaylists />

@@ -51,7 +51,5 @@ In the project directory, you can run:
 ### Work in Progress
 
 - Setup promotional/label/collective section.
-- Setup track release section.
 - Setup biography text.
 - Setup photo gallery.
-- Setup highlight for earliest upcoming event.

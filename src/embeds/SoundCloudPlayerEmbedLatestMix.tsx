@@ -1,7 +1,7 @@
 function SoundCloudPlayerEmbed() {
   return (
     <iframe
-      title="SoundCloud Player Embed"
+      title="SoundCloud Player Embed Latest Mix"
       className="z-10 max-w-2xl"
       width="100%"
       height="166"
