@@ -10,7 +10,7 @@ function AppBody() {
     <div className="font-kanit">
       <div className="bg-[#0f0f0f] text-white">
         <h1 className="text-3xl xs:text-4xl">DJ <span className="font-thin">&</span> Producer</h1>
-        <h2 className="font-thin">Based in Tampa, FL, USA</h2>
+        <h2 className="font-thin">Based in St. Petersburg, FL, USA</h2>
       </div>
       <div className="flex-col pt-16 bg-[#0f0f0f] text-white">
         <AppEventsList />
