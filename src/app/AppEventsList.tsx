@@ -113,6 +113,16 @@ function AppEventsList() {
           </Link>
           <span> - St. Petersburg, FL</span>
         </p>
+        <p className="pt-2 font-thin text-gray-400">
+          <span>18 JULY 2024 - </span>
+          <Link
+            className="font-extralight hover:underline"
+            href="https://www.saigonblonde.com/"
+          >
+            Saigon Blonde
+          </Link>
+          <span> - St. Petersburg, FL</span>
+        </p>
       </div>
     </>
   );
