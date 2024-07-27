@@ -3,11 +3,8 @@ import NotificationIcon from "../icons/NotificationIcon";
 import { Chip, Link, Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuItem, NavbarMenuToggle } from "@nextui-org/react";
 import { SocialIcon } from "react-social-icons";
 import { scrollToTop } from "../helpers/scrollToTop";
-import { useState } from "react";
 
 function AppNavigationBar() {
-  const [hideAlert, setHideAlert] = useState(false);
-
   return (
     <Navbar className="text-white bg-black">
       <NavbarBrand>
@@ -23,13 +20,12 @@ function AppNavigationBar() {
       </NavbarBrand>
       <NavbarContent justify="end">
         <div className="hidden sm:flex gap-4">
-          <NavbarItem className={`${hideAlert ? "hidden" : ""} pt-2 font-kanit hidden md:flex`}>
+          <NavbarItem className="pt-2 font-kanit hidden md:flex">
             <Chip
               startContent={<NotificationIcon size={18} />}
               variant="flat"
               color="success"
               size="sm"
-              onClose={() => setHideAlert(true)}
             >
               <p className="pr-2">Website Under Construction</p>
             </Chip>
@@ -66,12 +62,11 @@ function AppNavigationBar() {
         <NavbarMenuToggle className="sm:hidden" />
       </NavbarContent>
       <NavbarMenu className="pt-4 text-white">
-        <NavbarMenuItem className={`${hideAlert ? "hidden" : ""} pt-2 pb-4 font-kanit`}>
+        <NavbarMenuItem className="pt-2 pb-4 font-kanit">
           <Chip
             startContent={<NotificationIcon size={18} />}
             color="success"
             size="sm"
-            onClose={() => setHideAlert(true)}
             variant="flat"
           >
             <p className="pr-2">Website Under Construction</p>
