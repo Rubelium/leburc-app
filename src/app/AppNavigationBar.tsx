@@ -27,7 +27,7 @@ function AppNavigationBar() {
               color="success"
               size="sm"
             >
-              <p className="pr-2">Website Under Construction</p>
+              <p className="pr-1">Website Under Construction</p>
             </Chip>
           </NavbarItem>
           <NavbarItem>
@@ -69,7 +69,7 @@ function AppNavigationBar() {
             size="sm"
             variant="flat"
           >
-            <p className="pr-2">Website Under Construction</p>
+            <p className="pr-1">Website Under Construction</p>
           </Chip>
         </NavbarMenuItem>
         <NavbarMenuItem>
