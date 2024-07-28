@@ -22,7 +22,7 @@ function AppBody() {
           color="success"
           variant="shadow"
           className="h-12 w-56 hover:bg-opacity-80"
-          onPress={() => window.location.href = "https://soundcloud.com/leburc"}
+          onPress={() => window.open("https://soundcloud.com/leburc", "_blank")}
         >
           LISTEN NOW
         </Button>
