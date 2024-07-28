@@ -32,20 +32,20 @@ function AppPlaylists() {
       <div>
         <AppPlaylistCard
           headerText={"MIX PLAYLIST"}
-          subHeaderText={"Afro House / Organic House"}
-          url={"https://soundcloud.com/leburc/sets/afro-house-organic-house"}
-          image={odysseyBeach}
-          imageCreditText="@omf20xx"
-          imageCreditUrl="https://www.instagram.com/omf20xx/"
+          subHeaderText={"Indie Dance"}
+          url={"https://soundcloud.com/leburc/sets/mixes-indie-dance"}
+          image={stPeteBrewingCompany}
+          imageCreditText="@f2t4"
+          imageCreditUrl="https://www.instagram.com/f2t4/"
         />
         <div className="pt-1">
           <AppPlaylistCard
             headerText={"MIX PLAYLIST"}
-            subHeaderText={"Indie Dance"}
-            url={"https://soundcloud.com/leburc/sets/mixes-indie-dance"}
-            image={stPeteBrewingCompany}
-            imageCreditText="@f2t4"
-            imageCreditUrl="https://www.instagram.com/f2t4/"
+            subHeaderText={"Afro House / Organic House"}
+            url={"https://soundcloud.com/leburc/sets/afro-house-organic-house"}
+            image={odysseyBeach}
+            imageCreditText="@omf20xx"
+            imageCreditUrl="https://www.instagram.com/omf20xx/"
           />
         </div>
       </div>

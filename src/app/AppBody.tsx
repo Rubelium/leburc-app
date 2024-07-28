@@ -27,16 +27,16 @@ function AppBody() {
           LISTEN NOW
         </Button>
       </div>
-      <div className="flex items-center justify-center min-h-[25vh] bg-gradient-to-b from-[#1b1b1b] to-[#272727] text-white text-2xl">
+      <div className="flex items-center justify-center min-h-[25vh] bg-gradient-to-b from-[#1b1b1b] to-[#202020] text-white text-2xl">
         <AppLatestMixCard />
       </div>
-      <div className="flex items-center justify-center min-h-[25vh] bg-gradient-to-b bg-[#272727] text-white text-2xl">
+      <div className="flex items-center justify-center min-h-[25vh] bg-gradient-to-b bg-[#202020] text-white text-2xl">
         <AppMyTracksCard />
       </div>
-      <div className="flex items-center justify-center min-h-[25vh] flex-col md:flex-row bg-[#272727]">
+      <div className="flex items-center justify-center min-h-[25vh] flex-col md:flex-row bg-[#202020]">
         <AppPlaylists />
       </div>
-      <div className="flex items-center justify-center min-h-[25vh] flex-col bg-gradient-to-b from-[#272727] to-[#0f0f0f]">
+      <div className="flex items-center justify-center min-h-[25vh] flex-col bg-gradient-to-b from-[#202020] to-[#0f0f0f]">
         <div className="w-[280px] sm:w-80 z-10">
           <AppAccordion />
         </div>
