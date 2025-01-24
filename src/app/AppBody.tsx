@@ -3,7 +3,7 @@ import AppAccordion from "./AppAccordion"
 import AppPlaylists from "./AppPlaylists";
 import AppEventsList from "./AppEventsList";
 import AppMyTracksCard from "./AppMyTracksCard";
-import { Button } from "@nextui-org/button";
+import { Button } from "@nextui-org/react";
 
 function AppBody() {
   return (
