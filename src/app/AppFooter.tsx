@@ -47,7 +47,7 @@ function AppFooter() {
           </div>
         </div>
       </div>
-      <div className="text-xs text-white font-thin pt-6">LEBURC 2024 • Last updated: 08/10/2024</div>
+      <div className="text-xs text-white font-thin pt-6">LEBURC 2025 • Last updated: 02/23/2025</div>
     </footer>
   );
 }
