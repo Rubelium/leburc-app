@@ -38,7 +38,14 @@ function AppAccordion() {
           >
             <p className="pr-1">Under Construction . . .</p>
           </Chip>
-          <p className="pt-5 text-sm font-thin">Steadily working on my anticipated first release as a producer. Creating minimal/deep tech and melodic techno compositions for a potential EP.</p>
+          <p className="pt-5 text-sm font-thin">
+            <div>
+              Currently in the early stages of redefining the direction and vision of this project.
+            </div>
+            <div className="pt-2">
+              For inquiries or collaborations, feel free to reach out via Instagram or email. You can find all relevant links below.
+            </div>
+          </p>
         </div>
       </AccordionItem>
     </Accordion>

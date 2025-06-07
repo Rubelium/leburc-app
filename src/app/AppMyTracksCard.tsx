@@ -8,7 +8,7 @@ function AppMyTracksCard() {
     >
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
         <p className="text-xl uppercase font-semibold">
-          MY TRACKS
+          UNMASTERED TRACKS
         </p>
       </CardHeader>
       <CardBody className="overflow-visible py-2 items-center">
