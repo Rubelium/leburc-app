@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c41eaa7.css",
-    "main.js": "/static/js/main.d7a99e03.js",
+    "main.css": "/static/css/main.0cd810ce.css",
+    "main.js": "/static/js/main.7a217b02.js",
     "static/js/244.37aeb818.chunk.js": "/static/js/244.37aeb818.chunk.js",
     "static/js/492.7518500f.chunk.js": "/static/js/492.7518500f.chunk.js",
     "static/js/264.0e5bad42.chunk.js": "/static/js/264.0e5bad42.chunk.js",
@@ -34,8 +34,8 @@
     "static/media/KanitNormal200.woff2": "/static/media/KanitNormal200.cd5c54a9cf6c99686cd9.woff2",
     "static/media/KanitNormal100.woff2": "/static/media/KanitNormal100.66caf2e717edbb7f5ced.woff2",
     "index.html": "/index.html",
-    "main.1c41eaa7.css.map": "/static/css/main.1c41eaa7.css.map",
-    "main.d7a99e03.js.map": "/static/js/main.d7a99e03.js.map",
+    "main.0cd810ce.css.map": "/static/css/main.0cd810ce.css.map",
+    "main.7a217b02.js.map": "/static/js/main.7a217b02.js.map",
     "244.37aeb818.chunk.js.map": "/static/js/244.37aeb818.chunk.js.map",
     "492.7518500f.chunk.js.map": "/static/js/492.7518500f.chunk.js.map",
     "264.0e5bad42.chunk.js.map": "/static/js/264.0e5bad42.chunk.js.map",
@@ -43,7 +43,7 @@
     "386.b8270099.chunk.js.map": "/static/js/386.b8270099.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c41eaa7.css",
-    "static/js/main.d7a99e03.js"
+    "static/css/main.0cd810ce.css",
+    "static/js/main.7a217b02.js"
   ]
 }
