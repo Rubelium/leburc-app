@@ -40,7 +40,7 @@ function AppNavigationBar() {
           <NavbarItem>
             <SocialIcon
               className="App-social-icon-navbar h-[40px] w-[40px]"
-              url="https://www.instagram.com/leburc.music/"
+              url="https://www.instagram.com/leburc.works/"
               bgColor="#ffffff"
             />
           </NavbarItem>
@@ -83,7 +83,7 @@ function AppNavigationBar() {
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link href="https://www.instagram.com/leburc.music/">
+          <Link href="https://www.instagram.com/leburc.works/">
             <SocialIcon
               className="App-social-icon-navbar h-[40px] w-[40px]"
               network="instagram"
