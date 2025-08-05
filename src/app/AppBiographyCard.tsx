@@ -4,7 +4,7 @@ import { Card, Chip } from "@nextui-org/react";
 function AppAccordion() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[220px]">
-      <Card className="bg-[#181818] border border-[#333] p-8 rounded-xl shadow-lg w-full max-w-md flex flex-col items-center">
+      <Card className="bg-[#181818] border border-[#333] p-8 rounded-xl shadow-lg w-[298px] md:w-full max-w-md flex flex-col items-center">
         <Chip
           startContent={
             <div className="pl-2">
@@ -16,7 +16,7 @@ function AppAccordion() {
           size="md"
           className="mb-6 px-1 py-2 text-base font-semibold rounded-full text-black"
         >
-          Biography Under Construction . . .
+          Under Construction . . .
         </Chip>
         <div className="text-center">
           <div className="text-lg font-light text-white mb-2">

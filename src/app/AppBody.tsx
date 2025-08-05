@@ -36,10 +36,8 @@ function AppBody() {
       <div className="flex items-center justify-center min-h-[25vh] flex-col md:flex-row bg-[#131313]">
         <AppPlaylists />
       </div>
-      <div className="flex items-center justify-center min-h-[40vh] flex-col bg-gradient-to-b from-[#131313] to-[#0f0f0f]">
-        <div className="w-[280px] sm:w-80">
-          <AppBiographyCard />
-        </div>
+      <div className="flex items-center justify-center min-h-[50vh] flex-col bg-gradient-to-b from-[#131313] to-[#0f0f0f]">
+        <AppBiographyCard />
       </div>
     </div>
   );

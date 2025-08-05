@@ -13,7 +13,7 @@ function AppFooter() {
         />
         <SocialIcon
           className="App-social-icon mr-[10px] ml-[10px] h-[60px] w-[60px]"
-          url="https://www.instagram.com/leburc.works/"
+          url="https://www.instagram.com/leburcworks/"
           bgColor="#00ff89"
           aria-label="Instagram"
         />
