@@ -45,8 +45,8 @@ function AppFooter() {
           <div className="text-xs pt-2 font-medium">
             <Link
               className="pt-0.5 pb-0.5 hover:underline font-thin"
-              href="https://www.instagram.com/leburc.works/">
-              @leburc.works
+              href="https://www.instagram.com/leburcworks/">
+              @leburcworks
             </Link>
           </div>
         </div>
@@ -55,7 +55,7 @@ function AppFooter() {
         Homegrown and handcrafted.
       </div>
       <div className="mt-2 text-xs">
-        © 2025 LEBURC™ • Last updated: 06/28/2025
+        © 2025 LEBURC™ • Last updated: 08/04/2025
       </div>
     </footer>
   );

@@ -22,12 +22,17 @@ function AppNavigationBar() {
         <div className="hidden sm:flex gap-4">
           <NavbarItem className="pt-2 font-kanit hidden md:flex">
             <Chip
-              startContent={<NotificationIcon size={18} />}
-              variant="flat"
+              startContent={
+                <div className="pl-2">
+                  <NotificationIcon size={18} />
+                </div>
+              }
+              variant="shadow"
               color="success"
               size="sm"
+              className="text-black"
             >
-              <p className="pr-1">Website Under Construction</p>
+              <p className="pr-1">Website Under Construction . . .</p>
             </Chip>
           </NavbarItem>
           <NavbarItem>
@@ -58,18 +63,23 @@ function AppNavigationBar() {
               bgColor="#ffffff"
             />
           </NavbarItem>
-        </div>
+        </div >
         <NavbarMenuToggle className="sm:hidden" />
-      </NavbarContent>
+      </NavbarContent >
       <NavbarMenu className="pt-4 text-white">
         <NavbarMenuItem className="pt-2 pb-4 font-kanit">
           <Chip
-            startContent={<NotificationIcon size={18} />}
+            startContent={
+              <div className="pl-2">
+                <NotificationIcon size={17} />
+              </div>
+            }
             color="success"
             size="sm"
-            variant="flat"
+            variant="shadow"
+            className="text-black"
           >
-            <p className="pr-1">Website Under Construction</p>
+            <p className="pr-1">Website Under Construction . . .</p>
           </Chip>
         </NavbarMenuItem>
         <NavbarMenuItem>
@@ -113,7 +123,7 @@ function AppNavigationBar() {
           </Link>
         </NavbarMenuItem>
       </NavbarMenu>
-    </Navbar>
+    </Navbar >
   );
 }
 

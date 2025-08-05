@@ -6,3 +6,8 @@ test("renders 'app-main' div element", () => {
   const appMainDiv = screen.getByTestId("app-main");
   expect(appMainDiv).toBeInTheDocument();
 });
+
+test('matches snapshot', () => {
+  const { asFragment } = render(<App />);
+  expect(asFragment()).toMatchSnapshot();
+});
